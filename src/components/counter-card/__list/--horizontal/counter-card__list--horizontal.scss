@@ -1,0 +1,6 @@
+.counter-card__list--horizontal{
+  display: grid;
+  position: relative;
+  grid-template-columns: max-content max-content;
+  gap: $gap;
+}

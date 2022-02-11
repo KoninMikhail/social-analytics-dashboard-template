@@ -1,0 +1,13 @@
+.list {
+  &__picture {
+    display: inline-block;
+    width: $font_size_regular * 3;
+    -webkit-border-radius: $border-radius-sm;
+    -moz-border-radius: $border-radius-sm;
+    border-radius: $border-radius-sm;
+    overflow: hidden;
+  }
+}
+
+@import "--round/list__picture--round";
+@import "--round/list__picture--round_sm";

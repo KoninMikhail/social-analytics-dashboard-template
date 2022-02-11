@@ -1,0 +1,22 @@
+.counter-card__list-item--icon-inbox{
+  padding-left: 20px;
+  padding-right: 15px;
+
+  &::before{
+    content: '';
+    background: url(../assets/images/icons/inbox.svg);
+    -webkit-background-size: contain;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+    display: block;
+    color:#fff;
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto 0;
+    height: $font_size_regular * 0.8;
+    width:  $font_size_regular * 0.8;
+  }
+}

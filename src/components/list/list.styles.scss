@@ -1,0 +1,18 @@
+.list {
+  display: block;
+  position: relative;
+  transition-delay: 0.2s;
+
+  @include animate(all, cubic-bezier(0.61, 1, 0.88, 1), 1s);
+}
+
+@import "__item/list__item";
+@import "__picture/list__picture";
+@import "__userlink/list__userlink";
+@import "__date/list__date";
+@import "__brand-box/list__brand-box";
+@import "__logo/list__logo";
+@import "__counter/list__counter";
+@import "__cell/list__cell";
+
+

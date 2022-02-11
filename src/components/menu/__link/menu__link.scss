@@ -1,0 +1,17 @@
+&__link {
+  display: grid;
+  width: 100%;
+  color: inherit;
+  text-decoration: none;
+  grid-template-columns: max-content 4fr auto;
+  align-items: center;
+  padding: $gap 0;
+  margin: calc($gap / 2) 0;
+
+  &:hover {
+
+  }
+
+  // States
+  @import "--active/menu--active";
+}

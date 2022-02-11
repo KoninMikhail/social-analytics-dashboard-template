@@ -1,0 +1,40 @@
+.notifier--active {
+  @include animate();
+
+  .notifier__ticker{
+    opacity: 1;
+
+    @include fade_up();
+  }
+  .notifier__icon {
+    width: $font_size_regular * 3;
+    height: $font_size_regular * 3;
+    animation: bellshake 1s cubic-bezier(.36,.07,.19,.97) both;
+    animation-delay: 0.5s;
+    backface-visibility: hidden;
+    transform-origin: top center;
+
+    @include tablet_vert_screen(){
+      width: $font_size_regular * 4;
+      height: $font_size_regular * 4;
+    }
+
+    &:focus {
+      animation: bellshake .5s cubic-bezier(.36,.07,.19,.97) both;
+      backface-visibility: hidden;
+      transform-origin: top center;
+    }
+  }
+}
+
+@keyframes bellshake {
+  0% { transform: rotate(0); }
+  15% { transform: rotate(5deg); }
+  30% { transform: rotate(-5deg); }
+  45% { transform: rotate(4deg); }
+  60% { transform: rotate(-4deg); }
+  75% { transform: rotate(2deg); }
+  85% { transform: rotate(-2deg); }
+  92% { transform: rotate(1deg); }
+  100% { transform: rotate(0); }
+}

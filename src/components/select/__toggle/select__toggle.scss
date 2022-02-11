@@ -1,0 +1,39 @@
+.select__toggle {
+  display: grid;
+  grid-template-columns: max-content 1fr;
+  cursor: pointer;
+  align-items: center;
+  width: 100%;
+  color: var(--color_text_primary);
+  font-size: $font_size_regular * 0.9;
+  font-family: $font_main;
+  font-weight: bold;
+  line-height: 1.4;
+  user-select: none;
+  border: none;
+  background: none;
+
+  @include animate();
+}
+
+.select__toggle::after {
+  content: '>';
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  color: inherit;
+  transform: rotate(90deg);
+  font-size: $font_size_regular * 1.3;
+  line-height: 1;
+  height: $font_size_regular * 1.5;
+  width: $font_size_regular * 1.45;
+  margin-left: $font_size_regular * 0.5;
+  background-color: var(--color_background_quaternary);
+
+  @include border_radius();
+  @include animate();
+}
+
+.select__toggle:focus {
+  outline: none;
+}

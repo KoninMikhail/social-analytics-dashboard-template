@@ -1,0 +1,33 @@
+###> helloheitz/html-social-analytics-dashboard ###
+
+##### Folders #####
+build/
+node_modules/
+vendor/
+var/
+.tmp/
+
+# Yarn 2
+
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
+
+
+# IDE's
+.vscode/
+.idea/
+
+
+##### Files #####
+ignore.*
+*.ignore.*
+
+# Environment variables and secret keys
+.env
+.env.test
+*.pem

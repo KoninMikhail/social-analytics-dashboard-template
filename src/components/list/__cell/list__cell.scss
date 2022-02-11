@@ -1,0 +1,13 @@
+.list {
+  &__cell {
+    cursor: default;
+    color: var(--color_text_secondary);
+
+    &:last-of-type{
+      justify-content: right;
+      text-align: right;
+    }
+  }
+}
+
+@import "--wide/list__cell--wide";

@@ -1,0 +1,7 @@
+.list {
+  &__cell {
+    &--wide{
+      grid-area: span 1 / span 2;
+    }
+  }
+}

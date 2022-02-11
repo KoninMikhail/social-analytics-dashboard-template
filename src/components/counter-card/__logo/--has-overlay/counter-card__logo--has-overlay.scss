@@ -1,0 +1,25 @@
+.counter-card{
+  &__logo{
+    &--has-overlay{
+      &::after{
+        content: '';
+        display: block;
+        position: absolute;
+        right: -$gap * 4.9;
+        top: -$gap * 4.7;
+        width: $logo_size * 3;
+        height: $logo_size * 3;
+        background: url("../assets/images/branding/logo/logo_stroked.svg") no-repeat;
+        opacity: 0.14;
+        z-index: 3;
+
+        @include lg_screen {
+          right: -$gap * 6.2;
+          top: -$gap * 5.9;
+          width: $logo_size * 3.8;
+          height: $logo_size * 3.8;
+        }
+      }
+    }
+  }
+}

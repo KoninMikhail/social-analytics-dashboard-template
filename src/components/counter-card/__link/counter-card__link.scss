@@ -1,0 +1,9 @@
+.counter-card{
+  &__link{
+    display: block;
+    color: $color_text_primary;
+    text-decoration: none;
+    font-weight: bold;
+    letter-spacing: -0.03em;
+  }
+}

@@ -1,0 +1,7 @@
+&__content{
+  &--extra-col-2{
+    @include md_screen(){
+      grid-template-columns: auto auto auto;
+    }
+  }
+}

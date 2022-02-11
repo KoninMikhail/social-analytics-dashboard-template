@@ -1,0 +1,21 @@
+.sidebar__item{
+  &:first-child{
+    display: grid;
+    max-height: max-content;
+    grid-template-columns: auto auto;
+    justify-content: space-between;
+
+    @include lg_screen(){
+      justify-content: center;
+    }
+  }
+
+  @include lg_screen(){
+    display: block;
+
+    &:last-child{
+      display: grid;
+      align-items: end;
+    }
+  }
+}

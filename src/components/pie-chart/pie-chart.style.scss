@@ -1,0 +1,16 @@
+.pie-chart{
+  display: grid;
+  position: relative;
+  grid-template-columns: 50% 50%;
+  width: 100%;
+  gap: $gap;
+  align-items: center;
+
+}
+
+@import "__circle/pie-chart__circle";
+@import "__legend/pie-chart__legend";
+@import "__legend-item/pie-chart__legend-item";
+@import "__legend-item-name/pie-chart__legend-item-name";
+@import "__legend-item-value/pie-chart__legend-item-value";
+@import "__legend-item-identifier/pie-chart__legend-item-identifier";

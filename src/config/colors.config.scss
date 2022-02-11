@@ -1,0 +1,95 @@
+/* ======================= */
+/* Colors library*/
+/* ======================= */
+
+// Base colors
+$color_primary: #171717;
+$color_secondary: #0c0c0c;
+$color_tertiary: #1d1d1d;
+$color_quaternary: #f3f3f3;
+$color_quinary: #f9f9f9;
+$color_senary: #ffffff;
+
+
+// Brand colors
+$color_brand_primary: #75fcd4;
+$color_brand_primary_lighten: #effff8;
+$color_brand_primary_darken: adjust-color($color_brand_primary, $saturation:-80%, $lightness: -10%);
+$color_brand_primary_darknest: adjust-color($color_brand_primary, $saturation:-3%, $lightness: -3%);
+
+$color_brand_secondary: #e9ffcc;
+$color_brand_secondary_lighten: #fdfff1;
+$color_brand_secondary_darken: adjust-color($color_brand_secondary, $saturation:-80%, $lightness: -10%);
+$color_brand_secondary_darknest: adjust-color($color_brand_secondary_darken, $saturation: +20%, $lightness: -15%);
+
+$color_brand_tertiary: #f4dbfb;
+$color_brand_tertiary_lighten: #fbf4fc;
+$color_brand_tertiary_darken: adjust-color($color_brand_tertiary, $saturation:-70%, $lightness: -10%);
+$color_brand_tertiary_darknest: adjust-color($color_brand_tertiary, $saturation: -40%, $lightness: -40%);
+
+// Actions colors
+$color_warning: #f61e5d;
+$color_success: #2ECC71;
+
+
+/* ======================= */
+/* Light (normal) Theme  */
+/* ======================= */
+
+// Backgrounds
+$color_background_primary: $color_primary; // menu background
+$color_background_secondary: $color_secondary;
+$color_background_tertiary: $color_tertiary;
+$color_background_quaternary: $color_quaternary; // icons, dropdowns and etc.
+$color_background_quinary: $color_quinary; // inputs
+$color_background_senary: $color_senary; // app background
+
+
+$color_background_wrapper: #f8f9fb;
+
+// Text colors
+$color_text_primary: $color_primary;
+$color_text_secondary: #777777;
+$color_text_tertiary: $color_senary;
+
+// Borders
+$color_border: $color_quaternary;
+
+// Dropdrown
+$color_background_dropdown: $color_senary;
+
+// Pie chart
+$color_background_chart: $color_quinary;
+$color_background_chart_section: $color_primary;
+
+
+/* ======================= */
+/* Dark Theme*/
+/* ======================= */
+
+// Backgrounds
+$dark_theme_color_background_primary: $color_primary; // menu background
+$dark_theme_color_background_secondary: $color_secondary;
+$dark_theme_color_background_tertiary: $color_quinary;
+$dark_theme_color_background_quaternary: $color_tertiary; // icons, dropdowns and etc.
+$dark_theme_color_background_quinary:  $color_tertiary; // inputs
+$dark_theme_color_background_senary: $color_secondary; // app background
+
+$dark_theme_color_background_wrapper: $color_primary;
+
+// Text colors
+$dark_theme_color_text_primary: $color_senary;
+$dark_theme_color_text_secondary: #777777;
+$dark_theme_color_text_tertiary: $color_quaternary;
+$dark_theme_color_text_quaternary: $color_senary;
+
+
+// Borders
+$dark_theme_color_border: adjust-color($color_quaternary, $alpha: -0.9);
+
+// Dropdrown
+$dark_theme_color_background_dropdown: $color_primary;
+
+// Pie chart
+$dark_theme_color_background_chart: $color_tertiary;
+$dark_theme_color_background_chart_section: adjust-color($color_primary, $saturation: -10%, $lightness: +25%);

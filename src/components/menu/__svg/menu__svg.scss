@@ -1,0 +1,15 @@
+&__svg{
+  display: block;
+  position: absolute;
+  margin: auto;
+  width: $font_size_regular * 2;
+  height: $font_size_regular * 2;
+
+  &:first-child{
+    opacity: 1;
+  }
+
+  &:last-child{
+    opacity: 0;
+  }
+}

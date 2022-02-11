@@ -1,0 +1,36 @@
+// User Bar
+.user-bar{
+  display: grid;
+  position: relative;
+  grid-template-rows: auto;
+  grid-template-columns: repeat(5, $font_size_regular * 3);
+  gap: calc($gap / 1.4);
+  align-items: center;
+  justify-items: center;
+
+  @include tablet_vert_screen(){
+    grid-template-columns: repeat(5, $font_size_regular * 4);
+  }
+
+  &--pc{
+    &--left{
+        justify-content: start;
+    }
+    &--center{
+        justify-content: center;
+    }
+    &--right{
+        justify-content: end;
+    }
+  }
+}
+
+// Item
+@import "__item/user-bar__item";
+
+// PC float
+@import "--pc-float/user-bar--pc-float";
+
+// Mobile float
+@import "--mobile-float/user-bar--mobile-float";
+

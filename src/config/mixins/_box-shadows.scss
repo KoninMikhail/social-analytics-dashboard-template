@@ -1,0 +1,17 @@
+@mixin app-shadow(){
+  -webkit-box-shadow: 0px 100px 48px 48px rgba(0, 0, 0, 0.01);
+  -moz-box-shadow: 0px 100px 48px 48px rgba(0, 0, 0, 0.01);
+  box-shadow: 0px 100px 48px 48px rgba(0, 0, 0, 0.01);
+}
+
+@mixin count-shadow(){
+  -moz-box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  -webkit-box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+@mixin dropdown-shadow(){
+  -moz-box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+  -webkit-box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}

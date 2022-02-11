@@ -1,0 +1,15 @@
+
+
+// Logo
+.logo{
+  display: block;
+  position: relative;
+  height: calc( $logo_size * 0.8);
+  z-index: 998;
+
+  @include lg_screen{
+    height: $logo_size;
+  }
+}
+
+@import "__picture/logo__picture";

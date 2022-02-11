@@ -1,0 +1,25 @@
+.notifier{
+  cursor: pointer;
+  display: block;
+  position: relative;
+  color: var(--color_text_primary);
+
+  width: $font_size_regular * 3;
+  height: $font_size_regular * 3;
+
+  @include tablet_vert_screen(){
+    width: $font_size_regular  * 4;
+    height: $font_size_regular * 4;
+  }
+
+  @include animate();
+}
+
+// Icon
+@import "__icon/notifier__icon";
+
+// Ticker
+@import "__ticker/notifier__ticker";
+
+// Active
+@import "--active/notifier--active";

@@ -1,0 +1,20 @@
+.select__dropdown {
+  display: block;
+  visibility: hidden;
+  opacity:0;
+  position: absolute;
+  min-width: 90px;
+  top: 2.5rem;
+  right: 0;
+  font-size: $font_size_regular * 0.9;
+  font-weight: bold;
+  color: var(--color_text_secondary);
+  font-family: $font_main;
+  max-height: $font_size_regular * 12;
+  overflow-y: auto;
+  z-index: 2;
+  background: var(--color_background_dropdown);
+
+  @include dropdown-shadow();
+  @include border_radius($border-radius-sm * 0.7);
+}

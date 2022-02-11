@@ -1,0 +1,25 @@
+.new-action__icon{
+  width: $font_size_regular * 3;
+  height: $font_size_regular * 3;
+
+  @include tablet_vert_screen(){
+    width: $font_size_regular * 4;
+    height: $font_size_regular * 4;
+  }
+
+  & svg {
+    overflow: visible;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: auto;
+    height: $font_size_regular * 1.5;
+
+    @include tablet_vert_screen(){
+      height: $font_size_regular * 1.85;
+    }
+  }
+}

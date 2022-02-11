@@ -1,0 +1,12 @@
+.counter-card__count--balance{
+  color: var(--color_text_tertiary);
+
+  &::after{
+    display:inline;
+    content: ' ' attr(data-counter-name);
+    @include bg-gradient($color_brand_tertiary_lighten, $color_brand_secondary_lighten, $color_brand_primary_lighten);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 700;
+  }
+}

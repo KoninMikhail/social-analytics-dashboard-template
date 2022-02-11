@@ -1,0 +1,11 @@
+.user-bar__item{
+  display: block;
+  position: relative;
+  background-color: var(--color_background_quinary);
+  @include border_radius();
+  @include animate();
+
+  &:hover{
+    background: var(--color_background_quaternary);
+  }
+}

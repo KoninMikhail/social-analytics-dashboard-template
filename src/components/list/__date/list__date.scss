@@ -1,0 +1,8 @@
+.list{
+  &__date{
+    font-family: $font_main;
+    color: var(--color_text_primary);
+    font-size: $font_size_regular;
+    font-weight: bold;
+  }
+}

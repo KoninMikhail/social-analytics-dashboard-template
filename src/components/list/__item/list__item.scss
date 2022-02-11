@@ -1,0 +1,22 @@
+.list {
+  &__item {
+    display: grid;
+    position: relative;
+    grid-template-columns: $font_size_regular * 3.1 repeat(3, 1fr);
+    column-gap: calc($gap / 4);
+    margin-bottom: $gap;
+    align-items: center;
+
+    @include md_screen(){
+      grid-template-columns: $font_size_regular * 5 repeat(3, 1fr);
+    }
+
+    @include lg_screen{
+      grid-template-columns: repeat(4, 1fr);
+    }
+
+    &:last-of-type{
+      margin-bottom: 0;
+    }
+  }
+}

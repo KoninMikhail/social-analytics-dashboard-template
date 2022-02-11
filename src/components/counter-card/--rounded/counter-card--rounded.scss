@@ -1,0 +1,3 @@
+.counter-card--rounded{
+    @include border_radius($border-radius-sm);
+}

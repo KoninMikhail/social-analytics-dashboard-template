@@ -1,0 +1,18 @@
+.counter-card {
+
+  &__icon {
+    height: $font_size_regular * 2;
+    margin-bottom: $gap;
+    color: $color_primary;
+
+    &--color{
+      &-secondary-darken{
+        color: var(--color_brand_secondary_darken);
+      }
+
+      &-tertiary-darken{
+        color: var(--color_brand_tertiary_darken);
+      }
+    }
+  }
+}

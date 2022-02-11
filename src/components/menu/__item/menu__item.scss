@@ -1,0 +1,6 @@
+&__item{
+  list-style: none;
+  width: inherit;
+  position: relative;
+  @include animate();
+}

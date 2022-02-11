@@ -1,0 +1,30 @@
+// Media queries breakpoints
+
+@mixin sm_screen {
+  @media screen and (max-width: 768px) {
+    @content;
+  }
+}
+
+@mixin md_screen {
+  @media screen and (min-width: 769px) {
+    @content;
+  }
+}
+
+@mixin lg_screen {
+  @media screen and (min-width: 1025px) {
+    @content;
+  }
+}
+
+@mixin tablet_vert_screen {
+  @media screen and (max-width: 991px) {
+    @content;
+  }
+}
+@mixin xl_screen {
+  @media screen and (min-width: 1200px) {
+    @content;
+  }
+}

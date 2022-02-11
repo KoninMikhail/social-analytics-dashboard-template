@@ -1,0 +1,8 @@
+.page-heading{
+  &__title{
+    font-family: $font_titles;
+    font-size: $font_size_titles;
+    font-weight: bold;
+    letter-spacing: -0.03em;
+  }
+}

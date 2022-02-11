@@ -1,0 +1,27 @@
+.pie-chart{
+  &__legend{
+    &-item{
+      &-identifier{
+        &--pure{
+        @include bg-gradient();
+          z-index: 15;
+
+          &::before {
+            content: '';
+            display: block;
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            background: var(--color_background_primary);
+            right: 0;
+            margin:auto;
+            width: $font_size_regular * 0.56;
+            height: $font_size_regular * 0.6;
+            z-index: 8;
+          }
+        }
+      }
+    }
+  }
+}

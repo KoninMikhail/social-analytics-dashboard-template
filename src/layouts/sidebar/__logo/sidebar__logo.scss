@@ -1,0 +1,35 @@
+.sidebar__logo{
+  display: block;
+  position: relative;
+  margin: calc( $gap * 1.5 );
+  height: $logo_size * 0.75;
+
+  @include lg_screen(){
+    &::after {
+      content: '';
+      position: absolute;
+      display: block;
+      background: #ffffff;
+      top: 0;
+      bottom: 0;
+      left: -$logo_size * 0.18;
+      right: 0px;
+      margin: auto;
+      transform: scale(1.5);
+      height: calc($logo_size);
+      width: calc($logo_size);
+      opacity: 0.1;
+      @include border_radius(50%);
+    }
+  }
+
+  @include md_screen() {
+    margin: calc($gap * 1.3);
+  }
+
+  @include lg_screen{
+    margin: $gap * 3.3 auto;
+    margin-bottom: 0;
+  }
+
+}

@@ -1,0 +1,7 @@
+.hamburger__line {
+  fill:none;
+  transition: stroke-dasharray 400ms, stroke-dashoffset 400ms;
+  stroke:#fff;
+  stroke-width:4.5;
+  stroke-linecap:round;
+}

@@ -1,0 +1,64 @@
+// Transition animation
+
+@mixin animate($property: all, $ease: $transition_function, $duration: $transition_duration) {
+  -webkit-transition: $property $ease $duration;
+  -moz-transition: $property $ease $duration;
+  -o-transition: $property $ease $duration;
+  transition: $property $ease $duration;
+}
+
+// Fade up animations
+
+@mixin fade_up() {
+  transform: translateY(-10px);
+  opacity: 1;
+  @include animate();
+}
+
+
+@mixin fade_up_active() {
+  transform: none;
+  visibility: visible;
+  opacity: 1;
+}
+
+// Fade down animation
+
+@mixin fade_down() {
+  transform: translateY(-10px);
+  opacity: 0;
+  visibility: hidden;
+  @include animate();
+}
+
+@mixin fade_down_active() {
+  transform: none;
+  visibility: visible;
+  opacity: 1;
+}
+
+// Flip up animation
+
+@mixin flip_up() {
+  opacity: 0;
+  visibility: hidden;
+  @include animate();
+  transform-origin: 50% -50px;
+  transform: perspective(300px) rotateX(-15deg);
+}
+
+@mixin flip_up_active() {
+  transform: none;
+  visibility: visible;
+  opacity: 1;
+}
+
+// Rotate
+
+@mixin rotate($deg: -180deg) {
+  transform: none;
+  visibility: visible;
+  opacity: 1;
+  transform: rotate($deg);
+  @include animate();
+}

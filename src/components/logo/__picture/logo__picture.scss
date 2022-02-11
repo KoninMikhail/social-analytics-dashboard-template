@@ -1,0 +1,9 @@
+// Logo
+.logo{
+  &__picture {
+    display: block;
+    position: relative;
+    height: inherit;
+    z-index: 999;
+  }
+}

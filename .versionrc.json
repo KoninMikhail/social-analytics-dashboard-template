@@ -1,0 +1,15 @@
+{
+  "header": "All notable changes to the \"**Html Social Analytics Dashboard Template**\" repository will be documented in this file.\n\nThe format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/) and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).",
+  "types": [
+    {"type": "feat", "section": "Features"},
+    {"type": "fix", "section": "Bug Fixes"},
+    {"type": "chore", "hidden": true},
+    {"type": "docs", "hidden": true},
+    {"type": "style", "hidden": true},
+    {"type": "refactor", "hidden": true},
+    {"type": "perf", "hidden": true},
+    {"type": "test", "hidden": true}
+  ],
+  "commitUrlFormat": "https://github.com/HelloHeitz/html-social-analytics-dashboard-template-bem/commits/{{hash}}",
+  "compareUrlFormat": "https://github.com/HelloHeitz/html-social-analytics-dashboard-template-bem/compare/{{previousTag}}...{{currentTag}}"
+}

@@ -1,0 +1,7 @@
+.counter-card{
+  &__footer{
+    display: grid;
+    position: relative;
+    align-self: end;
+  }
+}

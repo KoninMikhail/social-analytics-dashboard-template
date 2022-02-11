@@ -1,0 +1,11 @@
+.sidebar__main-nav {
+  .menu {
+    &__link {
+      &--active {
+        &::after {
+          right: -($gap * 2 + 0.15);
+        }
+      }
+    }
+  }
+}

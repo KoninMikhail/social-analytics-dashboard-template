@@ -1,0 +1,10 @@
+.list {
+  &__picture {
+    &--round-post{
+      -webkit-border-radius: $border-radius-sm;
+      -moz-border-radius: $border-radius-sm;
+      border-radius: $border-radius-sm;
+      overflow: hidden;
+    }
+  }
+}

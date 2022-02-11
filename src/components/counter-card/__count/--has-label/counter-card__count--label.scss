@@ -1,0 +1,11 @@
+.counter-card__count--has-label {
+  &::before{
+    content: attr(data-counter-label);
+    display: block;
+    color: var(--color_text_secondary);
+    font-family: $font_main;
+    font-size: $font_size_counter_name;
+    font-weight: 400;
+    margin-bottom: calc($gap / 5);
+  }
+}

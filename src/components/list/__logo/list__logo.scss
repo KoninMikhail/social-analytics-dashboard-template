@@ -1,0 +1,13 @@
+.list {
+  &__logo {
+      display: block;
+      position: absolute;
+      left: 0;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      margin: auto;
+      height: $font_size_regular;
+      width: $font_size_regular * 0.8;
+  }
+}

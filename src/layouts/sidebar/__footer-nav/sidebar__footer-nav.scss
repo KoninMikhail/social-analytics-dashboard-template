@@ -1,0 +1,19 @@
+.sidebar__footer-nav {
+  position: relative;
+  padding: $gap * 2 $gap * 2 $gap $gap * 2;
+
+  &:before {
+    content: '';
+    display: block;
+    position: relative;
+    top: -$gap;
+    left: 0;
+    border: none;
+    right: 0;
+    margin: 0 auto;
+    width: 96%;
+    height: 1px;
+    opacity: 0.1;
+    background: var(--color_border);
+  }
+}

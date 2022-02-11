@@ -1,0 +1,25 @@
+.new-action{
+  cursor: pointer;
+  display: block;
+  position: relative;
+  color: var(--color_text_tertiary);
+  padding: 15%;
+
+  width: $font_size_regular * 3;
+  height: $font_size_regular * 3;
+
+  @include border_radius();
+  @include bg-gradient($color_brand_tertiary_lighten, $color_brand_secondary_lighten, $color_brand_primary_lighten);
+
+  @include tablet_vert_screen(){
+    width: $font_size_regular * 4;
+    height: $font_size_regular * 4;
+  }
+}
+
+// Icon
+@import "__icon/new-action__icon";
+
+// Wrapper
+@import "__wrapper/new-action__wrapper";
+

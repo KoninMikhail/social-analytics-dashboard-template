@@ -1,0 +1,35 @@
+.search__input {
+  display: block;
+  height: $font_size_regular * 3;
+  padding: 0 $gap 0 $gap * 3;
+  line-height: 1.25;
+  background-color: var(--color_background_quinary);
+  color: var(--color_secondary);
+  appearance: none;
+  border: 2px solid var(--color_border);
+  width: 100%;
+
+  @include animate(all, cubic-bezier(0.27, 0.01, 0.38, 1.06), 0.5s);
+  @include border_radius();
+
+  @include tablet_vert_screen(){
+    height: $font_size_regular * 3.8;
+    padding: 0 $gap 0 $gap * 3.6;
+  }
+
+  &:invalid {
+    border-color: #FF5252;
+    box-shadow: none;
+  }
+
+  &:focus {
+    background-color: transparent;
+    outline: none;
+    border-color: var(--color_border);
+  }
+
+  &::placeholder {
+    color: var(--color_text_secondary);
+    opacity: 1;
+  }
+}

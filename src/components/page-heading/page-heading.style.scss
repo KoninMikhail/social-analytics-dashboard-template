@@ -1,0 +1,7 @@
+.page-heading{
+  padding-top: $gap * 2;
+  padding-bottom: $gap * 0.8;
+  @include animate(all, cubic-bezier(0.61, 1, 0.88, 1), 0.5s);
+}
+
+@import "__title/page-heading__title";

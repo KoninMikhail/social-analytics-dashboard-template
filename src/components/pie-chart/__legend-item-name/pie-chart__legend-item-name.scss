@@ -1,0 +1,14 @@
+.pie-chart{
+  &__legend{
+    &-item{
+      &-name{
+        display: block;
+        position: relative;
+        font-family: $font_main;
+        font-size: $font_size_regular;
+        font-weight: bold;
+        margin-bottom: $gap * 0.4;
+      }
+    }
+  }
+}

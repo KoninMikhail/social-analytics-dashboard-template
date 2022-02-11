@@ -1,0 +1,12 @@
+&__separator{
+  display: block;
+  height: 1px;
+  border: none;
+  margin-bottom: $gap;
+  background: var(--color_border);
+  -webkit-transition: inherit;
+  -moz-transition: inherit;
+  -ms-transition: inherit;
+  -o-transition: inherit;
+  transition: inherit;
+}

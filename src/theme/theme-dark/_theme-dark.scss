@@ -1,0 +1,45 @@
+@import "../../config/colors.config";
+
+body {
+  &.theme-dark {
+    --wrapper_background_color:  #{$dark_theme_color_background_wrapper};
+
+    // Color brands
+    --color_brand_primary: #{$color_brand_primary_darken};
+    --color_brand_primary_darken: #{$color_brand_primary_darknest};
+    --color_brand_secondary: #{$color_brand_secondary_darken};
+    --color_brand_secondary_darken: #{$color_brand_secondary_darknest};
+    --color_brand_tertiary: #{$color_brand_tertiary_darken};
+    --color_brand_tertiary_darken: #{$color_brand_tertiary_darknest};
+
+    // Backgrounds
+    --color_background_primary: #{$dark_theme_color_background_primary};
+    --color_background_secondary: #{$dark_theme_color_background_secondary};
+    --color_background_tertiary: #{$dark_theme_color_background_tertiary};
+    --color_background_quaternary: #{$dark_theme_color_background_quaternary};
+    --color_background_quinary: #{$dark_theme_color_background_quinary};
+    --color_background_senary: #{$dark_theme_color_background_senary};
+
+    // Color texts
+    --color_text_primary: #{$dark_theme_color_text_primary};
+    --color_text_secondary: #{$dark_theme_color_text_secondary};
+    --color_text_tertiary: #{$dark_theme_color_text_tertiary};
+
+    // Borders
+    --color_border: #{$dark_theme_color_border};
+
+    // Colors Collection
+    --color_warning: #{$color_warning};
+    --color_success: #{$color_success};
+
+    // Dropdown
+    --color_background_dropdown:  #{$dark_theme_color_background_dropdown};
+
+    // Pie chart
+    --color_background_chart: #{$dark_theme_color_background_chart};
+    --color_background_chart_section: #{$dark_theme_color_background_chart_section};
+    --color_background_chart_legend : #{$dark_theme_color_background_chart_section};
+  }
+
+}
+

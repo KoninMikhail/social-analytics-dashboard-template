@@ -1,0 +1,9 @@
+.user-bar{
+  &--mobile-float{
+    &--right{
+      @include sm_screen{
+        justify-content: end;
+      }
+    }
+  }
+}

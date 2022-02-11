@@ -1,0 +1,26 @@
+.list{
+  &__userlink{
+    font-family: $font_main;
+    color: var(--color_text_primary);
+    font-size: $font_size_regular;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: left;
+    -webkit-transition: inherit;
+    -moz-transition: inherit;
+    -ms-transition: inherit;
+    -o-transition: inherit;
+    transition: inherit;
+
+    &::before{
+
+    }
+
+    &::after{
+      content: '@' attr(data-username);
+      display: block;
+      width: 100%;
+      font-size: $font_size_regular * 0.9;
+    }
+  }
+}

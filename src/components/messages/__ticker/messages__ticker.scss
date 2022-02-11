@@ -1,0 +1,15 @@
+.messages__ticker {
+  position: absolute;
+  width: $font_size_regular * 0.8;
+  height: $font_size_regular * 0.8;
+  top: 0;
+  right: 0;
+  background-color: $color_warning;
+
+  @include tablet_vert_screen(){
+    width: $font_size_regular;
+    height: $font_size_regular;
+  }
+
+  @include border_radius();
+}

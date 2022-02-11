@@ -1,0 +1,25 @@
+.counter-card__count{
+  display: block;
+  cursor:default;
+  position: relative;
+  font-size: $font_size_titles + 0.2;
+  font-family: $font_titles;
+  color: $color_primary;
+  font-weight: bold;
+
+  &::after{
+    content: attr(data-counter-name);
+    display: block;
+    position: relative;
+    font-family: $font_main;
+    font-size: $font_size_counter_name;
+    color: var(--color_text_secondary);
+    font-weight: 400;
+  }
+}
+
+// Gradiets
+@import "--balance/counter-card__count--balance";
+
+@import "--size/counter-card__count--size";
+@import "--has-label/counter-card__count--label";

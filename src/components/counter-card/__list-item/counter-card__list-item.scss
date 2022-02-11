@@ -1,0 +1,7 @@
+.counter-card{
+  &__list-item{
+    position: relative;
+  }
+}
+
+@import "--icon/counter-card__list-item--icon";

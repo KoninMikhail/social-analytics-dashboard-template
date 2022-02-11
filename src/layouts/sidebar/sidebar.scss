@@ -1,0 +1,33 @@
+// Sidebar
+.sidebar{
+  display: grid;
+  position: relative;
+  max-height: 75px;
+  background: var(--color_background_primary);
+  grid-template-columns: 1fr;
+  overflow: hidden;
+  @include animate(max-height, cubic-bezier(0.42, 0, 0.15, 1.07) 2s);
+
+  @include lg_screen(){
+    height: 100%;
+    max-height: none !important;
+  }
+
+  @include border_radius();
+}
+
+
+// Items
+@import "__item/sidebar__item";
+
+// Logo Header
+@import "__logo/sidebar__logo";
+
+// Main Navigation
+@import "__main-nav/sidebar__main-nav";
+
+// Footer Navigation
+@import "__footer-nav/sidebar__footer-nav";
+
+// Sidebar hamburger
+@import "__hamburger/sidebar__hamburger";

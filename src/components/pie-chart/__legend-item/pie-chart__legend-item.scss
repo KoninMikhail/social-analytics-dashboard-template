@@ -1,0 +1,14 @@
+.pie-chart{
+  &__legend{
+    &-item{
+      display: block;
+      position: relative;
+      margin-bottom: $gap * 1.5;
+      padding-left: $gap;
+
+      &:last-child{
+        margin-bottom: 0;
+      }
+    }
+  }
+}

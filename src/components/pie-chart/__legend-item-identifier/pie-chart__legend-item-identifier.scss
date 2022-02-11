@@ -1,0 +1,35 @@
+.pie-chart{
+  &__legend{
+    &-item{
+      &-identifier{
+        display: block;
+        position: absolute;
+        top: $font_size_regular * 0.22;
+        background: var(--color_background_primary);
+        width: $font_size_regular * 0.81;
+        height: $font_size_regular * 0.85;
+        left: -$gap * 0.5;
+        z-index: 12;
+
+        @include border_radius();
+
+        &::before {
+          content: '';
+          display: block;
+          position: absolute;
+          top: 0;
+          bottom: 0;
+          left: 0;
+          right: 0;
+          margin:auto;
+          background: var(--color_background_chart_legend);
+          width: $font_size_regular * 0.6;
+          height: $font_size_regular * 0.58;
+
+          @include border_radius();
+        }
+      }
+    }
+  }
+}
+@import "--pure/pie-chart__legend-item-identifier--pure";

@@ -1,0 +1,7 @@
+&__toolbar{
+    display: grid;
+    grid-template-columns: minmax(10px, max-content) minmax(10px, max-content);
+    justify-content: space-between;
+    align-items: center;
+    margin: $gap 0;
+}

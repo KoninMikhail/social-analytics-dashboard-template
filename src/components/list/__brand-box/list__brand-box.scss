@@ -1,0 +1,16 @@
+.list {
+  &__brand-box {
+      display: block;
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      right: calc($gap / 3);
+      margin: auto 0;
+      vertical-align: middle;
+      width: $font_size_regular * 1.7;
+      height: $font_size_regular * 1.7;
+      background: var(--color_background_primary);
+
+      @include border-radius();
+  }
+}

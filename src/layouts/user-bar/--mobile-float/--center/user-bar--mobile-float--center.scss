@@ -1,0 +1,7 @@
+.user-bar--mobile-float{
+  &--center{
+    @include sm_screen{
+      justify-content: center;
+    }
+  }
+}

@@ -1,0 +1,23 @@
+.profile-desk{
+  display: block;
+  position: relative;
+  width: $font_size_regular  * 3;
+  height: $font_size_regular * 3;
+  background: var(--color_background_secondary);
+  @include border_radius();
+
+  @include tablet_vert_screen(){
+    width: $font_size_regular  * 4;
+    height: $font_size_regular * 4;
+  }
+
+  &:hover {
+    cursor: pointer;
+  }
+
+  &__image {
+    width: inherit;
+    height: inherit;
+    @include border_radius();
+  }
+}

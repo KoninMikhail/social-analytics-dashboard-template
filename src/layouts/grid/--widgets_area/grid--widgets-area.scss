@@ -1,0 +1,10 @@
+.grid--widgets_area{
+    grid-template-columns: auto;
+    grid-auto-flow: row dense;
+    gap: $gap;
+
+    @include lg_screen(){
+      grid-template-columns: repeat(12, 1fr);
+    }
+
+  }

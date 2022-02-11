@@ -1,0 +1,18 @@
+.dashboard-app {
+  display: block;
+  position: relative;
+  color: var(--color_text_primary);
+  background: var( --color_background_senary);
+  width: 100%;
+  padding: $gap;
+
+  @include lg_screen{
+    width: 90%;
+    max-width: 1250px;
+
+    @include border_radius();
+  }
+
+  @include animate(background-color, ease-out, 0.5s);
+  @include app-shadow();
+}

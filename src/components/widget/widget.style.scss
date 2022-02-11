@@ -1,0 +1,48 @@
+/* ========================================================================= */
+/* Widgets*/
+/* ========================================================================= */
+
+.widget{
+  display: block;
+  position: relative;
+  font-family: $font_main;
+  line-height: $font_lh;
+  padding: 0 $gap * 1.5 $gap * 1.5;
+  min-height: 180px;
+  border: 2px solid var(--color_border);
+  font-size: $font_size_regular;
+  grid-area: span 1/span 12;
+
+  @include border_radius($border-radius-sm);
+
+  $p: &;
+
+  /* Sizes */
+  @import "--size/size";
+
+  /* Gaps */
+  @import "--gap/gap";
+
+  /* Borders */
+  @import "--border/border";
+
+
+  /* ========================================================================= */
+  /* Widget Blocks*/
+  /* ========================================================================= */
+  @import "__toolbar/toolbar";
+  @import "__content/content";
+
+  /* ========================================================================= */
+  /* Widget Elements */
+  /* ========================================================================= */
+
+  // Headings
+  @import "__title/title";
+
+  // Separator
+  @import "__separator/separator";
+
+  // Links
+  @import "__more-link/widget__more-link";
+}

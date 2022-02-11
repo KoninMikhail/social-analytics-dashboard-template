@@ -1,0 +1,12 @@
+@import "../../config/mixins/mixins";
+@import "../../config/variables.config";
+@import "../../config/typography.config";
+
+.btn{
+  cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}

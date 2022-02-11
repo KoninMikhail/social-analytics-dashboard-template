@@ -1,0 +1,8 @@
+&__content{
+    display: grid;
+    position: relative;
+    gap: $gap;
+    grid-template-columns: auto;
+}
+
+@import "--extra-col/extra-col";

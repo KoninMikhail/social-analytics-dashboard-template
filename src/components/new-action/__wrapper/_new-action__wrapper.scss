@@ -1,0 +1,29 @@
+.new-action__wrapper{
+  background: var(--color_background_primary);
+  width: 100%;
+  height: 100%;
+
+  &:hover{
+    -webkit-animation:spin .3s linear;
+    -moz-animation:spin .3s linear;
+    animation:spin .3s linear;
+  }
+
+  @include border_radius();
+}
+
+
+// Hover Animation
+
+@-moz-keyframes spin {
+  100% { -moz-transform: rotate(90deg); }
+}
+@-webkit-keyframes spin {
+  100% { -webkit-transform: rotate(90deg); }
+}
+@keyframes spin {
+  100% {
+    -webkit-transform: rotate(90deg);
+    transform:rotate(90deg);
+  }
+}

@@ -1,0 +1,17 @@
+.grid--toolbar {
+  grid-row-gap: $gap;
+  padding-top: $gap * 2;
+
+  @include sm_screen(){
+    padding-top: $gap * 2;
+  }
+
+  @include md_screen(){
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  @include lg_screen(){
+    grid-template-columns: 40% 60%;
+    padding-top: 0;
+  }
+}

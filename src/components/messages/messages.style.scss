@@ -1,0 +1,23 @@
+.messages{
+  cursor: pointer;
+  display: block;
+  position: relative;
+  color: var(--color_text_primary);
+
+  width: $font_size_regular * 3;
+  height: $font_size_regular * 3;
+
+  @include border_radius();
+
+
+  @include tablet_vert_screen(){
+    width: $font_size_regular  * 4;
+    height: $font_size_regular * 4;
+  }
+}
+
+// Icon
+@import "__icon/messages__icon";
+
+// Ticker
+@import "__ticker/messages__ticker";

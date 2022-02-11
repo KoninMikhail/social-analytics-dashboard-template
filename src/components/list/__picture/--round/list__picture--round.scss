@@ -1,0 +1,10 @@
+.list {
+  &__picture {
+    &--round{
+      -webkit-border-radius: $border-radius;
+      -moz-border-radius: $border-radius;
+      border-radius: $border-radius;
+      overflow: hidden;
+    }
+  }
+}

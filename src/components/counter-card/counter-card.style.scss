@@ -1,0 +1,54 @@
+.counter-card {
+  display: grid;
+  position: relative;
+  font-family: $font_main;
+  line-height: $font_lh;
+  padding: $gap * 1.8;
+  height: 100%;
+  text-decoration: none;
+  overflow: hidden;
+}
+
+/* ======================================================== */
+/* Colors */
+/* ======================================================== */
+
+@import "--primary/counter-card--primary";
+@import "--secondary/counter-card--secondary";
+@import "--tertiary/counter-card--tertiary";
+@import "--darknes/counter-card--darkness";
+
+/* ======================================================== */
+/* Sections */
+/* ======================================================== */
+
+// Head
+@import "__head/counter-card__head";
+
+// Footer
+@import "__footer/counter-card__footer";
+
+/* ======================================================== */
+/* Elements */
+/* ======================================================== */
+
+// Counter
+@import "__count/counter-card__count";
+
+// Icon
+@import "__icon/counter-card__icon";
+
+// Logo
+@import "__logo/counter-card__logo";
+
+// Link
+@import "__link/counter-card__link";
+
+// List Items
+@import "__list/counter-card__list";
+
+// List Item
+@import "__list-item/counter-card__list-item";
+
+// Rounded
+@import "--rounded/counter-card--rounded";

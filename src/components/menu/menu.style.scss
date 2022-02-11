@@ -1,0 +1,28 @@
+@import "../../config/colors.config";
+
+// Menu
+.menu{
+  display: block;
+  position: relative;
+  font-family: $font_main;
+  font-size: $font_size_regular * 0.85;
+  line-height: $font_lh;
+  color: var(--color_text_tertiary);
+  font-weight: 300;
+  width: 100%;
+
+  // Item
+  @import "__item/menu__item";
+
+  // Links
+  @import "__link/menu__link";
+
+  // Icons
+  @import "__icon/menu__icon";
+
+  // Svg in Icons
+  @import "__svg/menu__svg";
+
+  // Item Name
+  @import "__name/menu__name";
+}

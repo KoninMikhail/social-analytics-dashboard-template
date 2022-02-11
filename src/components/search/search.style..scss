@@ -1,0 +1,11 @@
+.search {
+  display: block;
+  position: relative;
+  width: 100%;
+
+  @include animate(all, cubic-bezier(0.61, 1, 0.88, 1), 0.5s);
+}
+
+@import "__icon/search__icon";
+@import "__icon-svg/search__icon-svg";
+@import "__input/search__input";

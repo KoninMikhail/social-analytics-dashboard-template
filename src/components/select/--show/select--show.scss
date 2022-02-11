@@ -1,0 +1,12 @@
+
+.select--show .select__toggle::after {
+  padding: inherit;
+  @include rotate(-90deg);
+}
+
+.select--show .select__dropdown {
+  display: block;
+  visibility:visible;
+  opacity:1;
+  @include fade_up();
+}

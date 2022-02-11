@@ -1,0 +1,15 @@
+.list{
+  &__counter {
+    display: inline-block;
+    position: relative;
+    color: var(--color_text_primary);
+    padding: calc($gap * 0.5);
+    padding-right: $gap * 2.5;
+    padding-left: calc($gap / 1.5);
+    background: var(--color_background_quaternary);
+    font-weight: bold;
+
+    @include border-radius();
+    @include animate(all, cubic-bezier(0.61, 1, 0.88, 1), 0.5s);
+  }
+}

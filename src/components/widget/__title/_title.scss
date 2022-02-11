@@ -1,0 +1,8 @@
+&__title {
+  font-family: $font_titles;
+  font-size: $font_size_h2;
+  font-weight: bold;
+  color: var(--color_text_primary);
+  letter-spacing: -0.03em;
+  @include animate(all, cubic-bezier(0.61, 1, 0.88, 1), 0.8s);
+}

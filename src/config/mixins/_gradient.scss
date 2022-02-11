@@ -1,0 +1,7 @@
+@mixin bg-gradient($first-color: $color_brand_tertiary, $second-color: $color_brand_secondary, $color_third: $color_brand_primary){
+  background: rgba($first-color, 1);
+  background: -moz-linear-gradient(300deg, rgba($first-color, 1) 20%, rgba($second-color,1) 50%, rgba($color_third,1) 75%);
+  background: -webkit-linear-gradient(300deg, rgba($first-color, 1) 20%, rgba($second-color,1) 50%, rgba($color_third,1) 75%);
+  background: linear-gradient(300deg, rgba($first-color, 1) 20%, rgba($second-color,1) 50%, rgba($color_third,1) 75%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="$first-color",endColorstr="$color_third",GradientType=1);
+}

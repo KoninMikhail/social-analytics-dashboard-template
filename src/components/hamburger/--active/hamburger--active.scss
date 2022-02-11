@@ -1,0 +1,10 @@
+.hamburger--active .hamburger__svg {
+  transform: rotate(45deg);
+}
+
+.hamburger--active .hamburger__svg .hamburger__line--top {
+  stroke-dashoffset: -98px;
+}
+.hamburger--active .hamburger__svg .hamburger__line--bottom {
+  stroke-dashoffset: -138px;
+}

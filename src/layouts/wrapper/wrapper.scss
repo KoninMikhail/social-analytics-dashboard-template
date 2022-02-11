@@ -1,0 +1,11 @@
+.wrapper {
+  display: grid;
+  width: 100%;
+  min-height: 100vh;
+  background-color: var(--wrapper_background_color);
+  max-width: 100%;
+  align-items: center;
+  justify-items: center;
+
+  @include animate(background-color, ease-in-out, 0.5s);
+}

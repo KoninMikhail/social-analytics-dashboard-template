@@ -1,0 +1,62 @@
+&--size{
+
+  &_sm{
+    @include sm_screen(){
+      grid-area: span 1 / span 6;
+    }
+
+    @include md_screen(){
+      grid-area: span 1 / span 2;
+    }
+
+    @include lg_screen(){
+      grid-area: span 1 / span 3;
+    }
+
+    @include xl_screen(){
+      grid-area: span 1 / span 2;
+    }
+  }
+
+  &_md{
+
+    @include xl_screen(){
+      grid-area: span 1 / span 3;
+    }
+  }
+
+  &_lg{
+    @include md_screen(){
+      grid-area: span 1 / span 8;
+    }
+
+    @include lg_screen(){
+      grid-area: span 1 / span 6;
+    }
+
+    @include xl_screen(){
+      grid-area: span 1 / span 5;
+    }
+  }
+
+  &_lg_extra{
+    @include md_screen(){
+      grid-area: span 1 / span 12;
+    }
+
+    @include lg_screen(){
+      grid-area: span 1 / span 12;
+    }
+
+    @include xl_screen(){
+      grid-area: span 1 / span 5;
+    }
+  }
+
+  &_xl{
+
+    @include xl_screen(){
+      grid-area: span 1 / span 7;
+    }
+  }
+}

@@ -1,0 +1,19 @@
+/* Grid*/
+.grid{
+  display: grid;
+  grid-template-columns: auto;
+}
+
+// Column
+@import "__col/grid__col";
+
+/* Grid Templates */
+
+// Main
+@import "--main/grid--main";
+
+// Toolbar
+@import "--toolbar/grid--toolbar";
+
+// Widgets area
+@import "--widgets_area/grid--widgets-area";

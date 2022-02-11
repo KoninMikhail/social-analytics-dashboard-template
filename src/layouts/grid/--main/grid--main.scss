@@ -1,0 +1,7 @@
+.grid--main{
+  @include lg_screen(){
+    grid-template-columns: 200px auto;
+    height: 100%;
+    gap: $gap;
+  }
+}

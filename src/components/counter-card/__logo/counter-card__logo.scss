@@ -1,0 +1,9 @@
+.counter-card{
+  &__logo{
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 5;
+  }
+}
+@import "--has-overlay/counter-card__logo--has-overlay";

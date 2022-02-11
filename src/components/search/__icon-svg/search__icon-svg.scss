@@ -1,0 +1,11 @@
+.search__icon-svg {
+  width: $font_size_regular;
+  height: $font_size_regular;
+  color: var(--color_text_primary);
+  fill: currentColor;
+
+  @include tablet_vert_screen(){
+    width: $font_size_regular * 1.5;
+    height: $font_size_regular * 1.5;
+  }
+}
