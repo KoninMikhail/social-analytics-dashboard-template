@@ -126,27 +126,27 @@ if you do not have installed Yarn package manager:
 <img align="left" src="https://showcase.mheitz.ru/additional/tree.png" width="50px" />
 
 ## Template
-### Components
+### Components 🔥
 
-All project separated to components by BEM. You can easy copy-paste any module into another project. Don't forget replace color variables.
+All project separated to components by BEM. You can ``easy copy-paste any module into another project``. Don't forget replace color variables.
 
-| Name         |               Description                |           Type |
-|--------------|:----------------------------------------:|---------------:|
-| Select       |     Custom select dropdown list menu     | JS - Component |
-| Notifer      |       Small component for Notices        | JS - Component |
-| Toggle       |          Custom toggle switcher          | JS - Component |
-| Hamburger    | Use as button-switcher mobile menu state | JS - Component |
-| Counter Card |            Display statistic             |       HTML/CSS |
-| List         |    Use for list in another components    |       HTML/CSS |
-| Logo         |                   logo                   |       HTML/CSS |
-| Menu         |                   Menu                   |       HTML/CSS |
-| Messages     |        Messages item in user-bar         |       HTML/CSS |
-| More         |          More item in user-bar           |       HTML/CSS |
-| New Action   |    New Action button item in user-bar    |       HTML/CSS |
-| Profile      |     Profile picture item in user-bar     |       HTML/CSS |
-| Page Heading |                Page Title                |       HTML/CSS |
-| Pie Chart    |        Diagram and legend styles         |       HTML/CSS |
-| Search       |            Search box styles             |       HTML/CSS |
+| Name         |               Description                |      Type       |
+|--------------|:----------------------------------------:|:---------------:|
+| Select       |     Custom select dropdown list menu     | JS - Component  |
+| Notifer      |       Small component for Notices        | JS - Component  |
+| Toggle       |          Custom toggle switcher          | JS - Component  |
+| Hamburger    | Use as button-switcher mobile menu state | JS - Component  |
+| Counter Card |            Display statistic             |    HTML/CSS     |
+| List         |    Use for list in another components    |    HTML/CSS     |
+| Logo         |                   logo                   |    HTML/CSS     |
+| Menu         |                   Menu                   |    HTML/CSS     |
+| Messages     |        Messages item in user-bar         |    HTML/CSS     |
+| More         |          More item in user-bar           |    HTML/CSS     |
+| New Action   |    New Action button item in user-bar    |    HTML/CSS     |
+| Profile      |     Profile picture item in user-bar     |    HTML/CSS     |
+| Page Heading |                Page Title                |    HTML/CSS     |
+| Pie Chart    |        Diagram and legend styles         |    HTML/CSS     |
+| Search       |            Search box styles             |    HTML/CSS     |
 
 ### Configuration
 ``
