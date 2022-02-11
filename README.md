@@ -74,7 +74,9 @@
     - [Toolbox with scripts](#other)
     - [Separated configurations](#main)
     - [Minifiers, Optimizers, Transpilers](#main)
-- [Components](#Components)
+- [Template](#Components)
+   - [Components](#Components)
+   - [Configuration](#Configuration)
 - [Scaffolding](#scaffolding)
 - [Contributing](#contributors)
 - [Buy Me A Coffee](#buy-me-a-coffee)
@@ -123,7 +125,8 @@ if you do not have installed Yarn package manager:
 
 <img align="left" src="https://showcase.mheitz.ru/additional/tree.png" width="50px" />
 
-## Components
+## Template
+### Components
 ``
 
 
