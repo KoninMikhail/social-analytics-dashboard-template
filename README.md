@@ -128,7 +128,7 @@ if you do not have installed Yarn package manager:
 ## Template
 ### Components 🔥
 
-All project separated to components by BEM. You can ``easy copy-paste any module into another project``. Don't forget replace color variables.
+>All project separated to components by BEM. You can ``easy copy-paste any module into another project``. Don't forget replace color variables.
 
 | Name         |               Description                |      Type       |
 |--------------|:----------------------------------------:|:---------------:|
