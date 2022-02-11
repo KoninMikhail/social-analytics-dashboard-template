@@ -120,6 +120,339 @@ if you do not have installed Yarn package manager:
 
 ## Scaffolding
 ```
+.
+├── .commitlintrc.json
+├── .github
+│   ├── CODE_OF_CONDUCT.md
+│   ├── CODEOWNERS
+│   ├── config.yml
+│   ├── CONTRIBUTING.md
+│   ├── FUNDING.yml
+│   ├── issue_label_bot.yaml
+│   ├── ISSUE_TEMPLATE.md
+│   ├── ISSUE_TEMPLATE
+│   │   ├── 1-bug-report.md
+│   │   ├── 2-failing-test.md
+│   │   ├── 3-docs-bug.md
+│   │   ├── 4-feature-request.md
+│   │   ├── 5-enhancement-request.md
+│   │   ├── 6-security-report.md
+│   │   ├── 7-question-support.md
+│   │   └── config.yml
+│   ├── pull_request_template.md
+│   ├── SECURITY.md
+│   ├── settings.yml
+│   └── SUPPORT.md
+├── .gitignore
+├── .versionrc.json
+├── babel.config.json
+├── CHANGELOG.md
+├── configuration
+│   ├── husky
+│   │   ├── commit-msg
+│   │   ├── common.sh
+│   │   └── pre-commit
+│   └── webpack
+│       ├── environment.js
+│       ├── webpack.dev.config.js
+│       └── webpack.prod.config.js
+├── package.json
+├── README.md
+├── src
+│   ├── assets
+│   │   ├── css
+│   │   │   └── main.scss
+│   │   └── images
+│   │       ├── branding
+│   │       │   └── logo
+│   │       │       ├── logo.png
+│   │       │       ├── logo.svg
+│   │       │       └── logo_stroked.svg
+│   │       ├── favicon.ico
+│   │       ├── icons
+│   │       │   └── inbox.svg
+│   │       └── thumbs
+│   │           ├── posts
+│   │           │   ├── loly.jpg
+│   │           │   └── yory.jpg
+│   │           └── users
+│   │               ├── avatar.jpg
+│   │               ├── mikhail.jpg
+│   │               └── yehor.jpg
+│   ├── components
+│   │   ├── btn
+│   │   │   └── btn.style.scss
+│   │   ├── components.scss
+│   │   ├── counter-card
+│   │   │   ├── --darknes
+│   │   │   │   └── counter-card--darkness.scss
+│   │   │   ├── --primary
+│   │   │   │   └── counter-card--primary.scss
+│   │   │   ├── --rounded
+│   │   │   │   └── counter-card--rounded.scss
+│   │   │   ├── --secondary
+│   │   │   │   └── counter-card--secondary.scss
+│   │   │   ├── --tertiary
+│   │   │   │   └── counter-card--tertiary.scss
+│   │   │   ├── __count
+│   │   │   │   ├── --balance
+│   │   │   │   │   └── counter-card__count--balance.scss
+│   │   │   │   ├── --has-label
+│   │   │   │   │   └── counter-card__count--label.scss
+│   │   │   │   ├── --size
+│   │   │   │   │   └── counter-card__count--size.scss
+│   │   │   │   └── counter-card__count.scss
+│   │   │   ├── __footer
+│   │   │   │   └── counter-card__footer.scss
+│   │   │   ├── __head
+│   │   │   │   └── counter-card__head.scss
+│   │   │   ├── __icon
+│   │   │   │   └── counter-card__icon.scss
+│   │   │   ├── __link
+│   │   │   │   └── counter-card__link.scss
+│   │   │   ├── __list-item
+│   │   │   │   ├── --icon
+│   │   │   │   │   └── counter-card__list-item--icon.scss
+│   │   │   │   └── counter-card__list-item.scss
+│   │   │   ├── __list
+│   │   │   │   ├── --horizontal
+│   │   │   │   │   └── counter-card__list--horizontal.scss
+│   │   │   │   └── counter-card__list.scss
+│   │   │   ├── __logo
+│   │   │   │   ├── --has-overlay
+│   │   │   │   │   └── counter-card__logo--has-overlay.scss
+│   │   │   │   └── counter-card__logo.scss
+│   │   │   └── counter-card.style.scss
+│   │   ├── hamburger
+│   │   │   ├── --active
+│   │   │   │   └── hamburger--active.scss
+│   │   │   ├── __line
+│   │   │   │   ├── --bottom
+│   │   │   │   │   └── hamburger__line--bottom.scss
+│   │   │   │   ├── --top
+│   │   │   │   │   └── hamburger__line--top.scss
+│   │   │   │   └── hamburger__line.scss
+│   │   │   ├── __svg
+│   │   │   │   └── hamburger__svg.scss
+│   │   │   ├── hamburger.component.js
+│   │   │   └── hamburger.style.scss
+│   │   ├── list
+│   │   │   ├── __brand-box
+│   │   │   │   └── list__brand-box.scss
+│   │   │   ├── __cell
+│   │   │   │   ├── --wide
+│   │   │   │   │   └── list__cell--wide.scss
+│   │   │   │   └── list__cell.scss
+│   │   │   ├── __counter
+│   │   │   │   └── list__counter.scss
+│   │   │   ├── __date
+│   │   │   │   └── list__date.scss
+│   │   │   ├── __item
+│   │   │   │   └── list__item.scss
+│   │   │   ├── __logo
+│   │   │   │   └── list__logo.scss
+│   │   │   ├── __picture
+│   │   │   │   ├── --round
+│   │   │   │   │   ├── list__picture--round.scss
+│   │   │   │   │   └── list__picture--round_sm.scss
+│   │   │   │   └── list__picture.scss
+│   │   │   ├── __userlink
+│   │   │   │   └── list__userlink.scss
+│   │   │   └── list.styles.scss
+│   │   ├── logo
+│   │   │   ├── __picture
+│   │   │   │   └── logo__picture.scss
+│   │   │   └── logo.style.scss
+│   │   ├── menu
+│   │   │   ├── __icon
+│   │   │   │   └── menu__icon.scss
+│   │   │   ├── __item
+│   │   │   │   └── menu__item.scss
+│   │   │   ├── __link
+│   │   │   │   ├── --active
+│   │   │   │   │   └── menu--active.scss
+│   │   │   │   └── menu__link.scss
+│   │   │   ├── __name
+│   │   │   │   └── menu__name.scss
+│   │   │   ├── __svg
+│   │   │   │   └── menu__svg.scss
+│   │   │   └── menu.style.scss
+│   │   ├── messages
+│   │   │   ├── __icon
+│   │   │   │   └── messages__icon.scss
+│   │   │   ├── __ticker
+│   │   │   │   └── messages__ticker.scss
+│   │   │   └── messages.style.scss
+│   │   ├── more
+│   │   │   ├── __icon
+│   │   │   │   └── more__icon.scss
+│   │   │   └── more.style.scss
+│   │   ├── new-action
+│   │   │   ├── __icon
+│   │   │   │   └── _new-action__icon.scss
+│   │   │   ├── __wrapper
+│   │   │   │   └── _new-action__wrapper.scss
+│   │   │   └── new-action.style.scss
+│   │   ├── notifer
+│   │   │   ├── --active
+│   │   │   │   └── notifier--active.scss
+│   │   │   ├── __icon
+│   │   │   │   └── _notifier__icon.scss
+│   │   │   ├── __ticker
+│   │   │   │   └── notifier__ticker.scss
+│   │   │   ├── notifier.component.js
+│   │   │   └── notifier.style.scss
+│   │   ├── page-heading
+│   │   │   ├── __title
+│   │   │   │   └── page-heading__title.scss
+│   │   │   └── page-heading.style.scss
+│   │   ├── pie-chart
+│   │   │   ├── __circle
+│   │   │   │   ├── --negative
+│   │   │   │   │   └── pie-chart__circle--negative.scss
+│   │   │   │   └── pie-chart__circle.scss
+│   │   │   ├── __legend-item-identifier
+│   │   │   │   ├── --pure
+│   │   │   │   │   └── pie-chart__legend-item-identifier--pure.scss
+│   │   │   │   └── pie-chart__legend-item-identifier.scss
+│   │   │   ├── __legend-item-name
+│   │   │   │   └── pie-chart__legend-item-name.scss
+│   │   │   ├── __legend-item-value
+│   │   │   │   └── pie-chart__legend-item-value.scss
+│   │   │   ├── __legend-item
+│   │   │   │   └── pie-chart__legend-item.scss
+│   │   │   ├── __legend
+│   │   │   │   └── pie-chart__legend.scss
+│   │   │   └── pie-chart.style.scss
+│   │   ├── profile
+│   │   │   └── _profile.style.scss
+│   │   ├── search
+│   │   │   ├── __icon-svg
+│   │   │   │   └── search__icon-svg.scss
+│   │   │   ├── __icon
+│   │   │   │   └── search__icon.scss
+│   │   │   ├── __input
+│   │   │   │   └── search__input.scss
+│   │   │   └── search.style..scss
+│   │   ├── select
+│   │   │   ├── --show
+│   │   │   │   └── select--show.scss
+│   │   │   ├── __dropdown
+│   │   │   │   └── _select__dropdown.scss
+│   │   │   ├── __option
+│   │   │   │   └── _select__option.scss
+│   │   │   ├── __options
+│   │   │   │   └── _select__options.scss
+│   │   │   ├── __toggle
+│   │   │   │   └── select__toggle.scss
+│   │   │   ├── select.component.js
+│   │   │   └── select.style.scss
+│   │   ├── toggle
+│   │   │   ├── toggle.component.js
+│   │   │   └── toggle.style.scss
+│   │   └── widget
+│   │       ├── --border
+│   │       │   └── _border.scss
+│   │       ├── --gap
+│   │       │   └── _gap.scss
+│   │       ├── --size
+│   │       │   └── _size.scss
+│   │       ├── __content
+│   │       │   ├── --extra-col
+│   │       │   │   └── _extra-col.scss
+│   │       │   └── _content.scss
+│   │       ├── __more-link
+│   │       │   └── widget__more-link.scss
+│   │       ├── __separator
+│   │       │   └── _separator.scss
+│   │       ├── __title
+│   │       │   └── _title.scss
+│   │       ├── __toolbar
+│   │       │   └── _toolbar.scss
+│   │       └── widget.style.scss
+│   ├── config
+│   │   ├── colors.config.scss
+│   │   ├── mixins
+│   │   │   ├── _animations.scss
+│   │   │   ├── _border-styles.scss
+│   │   │   ├── _box-shadows.scss
+│   │   │   ├── _breakpoints.scss
+│   │   │   ├── _gradient.scss
+│   │   │   └── mixins.scss
+│   │   ├── typography.config.scss
+│   │   └── variables.config.scss
+│   ├── entry-points.js
+│   ├── helpers
+│   │   └── mobileMenuSwitchState.js
+│   ├── index.html
+│   ├── index.js
+│   ├── layouts
+│   │   ├── app
+│   │   │   └── app.scss
+│   │   ├── container
+│   │   │   ├── --gap
+│   │   │   │   ├── --lg
+│   │   │   │   │   └── container--gap--lg.scss
+│   │   │   │   └── container--gap.scss
+│   │   │   └── container.scss
+│   │   ├── grid
+│   │   │   ├── --main
+│   │   │   │   └── grid--main.scss
+│   │   │   ├── --toolbar
+│   │   │   │   └── grid--toolbar.scss
+│   │   │   ├── --widgets_area
+│   │   │   │   └── grid--widgets-area.scss
+│   │   │   ├── __col
+│   │   │   │   └── grid__col.scss
+│   │   │   └── grid.scss
+│   │   ├── layouts.scss
+│   │   ├── sidebar
+│   │   │   ├── __footer-nav
+│   │   │   │   └── sidebar__footer-nav.scss
+│   │   │   ├── __hamburger
+│   │   │   │   └── sidebar__hamburger.scss
+│   │   │   ├── __item
+│   │   │   │   └── sidebar__item.scss
+│   │   │   ├── __logo
+│   │   │   │   └── sidebar__logo.scss
+│   │   │   ├── __main-nav
+│   │   │   │   ├── menu
+│   │   │   │   │   ├── __link
+│   │   │   │   │   │   ├── --active
+│   │   │   │   │   │   │   └── menu__link--active.scss
+│   │   │   │   │   │   └── menu__link.scss
+│   │   │   │   │   └── menu.scss
+│   │   │   │   └── sidebar__main-nav.scss
+│   │   │   └── sidebar.scss
+│   │   ├── user-bar
+│   │   │   ├── --mobile-float
+│   │   │   │   ├── --center
+│   │   │   │   │   └── user-bar--mobile-float--center.scss
+│   │   │   │   ├── --left
+│   │   │   │   │   └── user-bar--mobile-float--left.scss
+│   │   │   │   ├── --right
+│   │   │   │   │   └── user-bar--mobile-float--right.scss
+│   │   │   │   └── user-bar--mobile-float.scss
+│   │   │   ├── --pc-float
+│   │   │   │   ├── --center
+│   │   │   │   │   └── user-bar--pc-float--center.scss
+│   │   │   │   ├── --left
+│   │   │   │   │   └── user-bar--pc-float--left.scss
+│   │   │   │   ├── --right
+│   │   │   │   │   └── user-bar--pc-float--right.scss
+│   │   │   │   └── user-bar--pc-float.scss
+│   │   │   ├── __item
+│   │   │   │   └── user-bar__item.scss
+│   │   │   └── user-bar.scss
+│   │   └── wrapper
+│   │       └── wrapper.scss
+│   └── theme
+│       ├── theme-dark
+│       │   └── _theme-dark.scss
+│       ├── theme-light
+│       │   └── _theme-light.scss
+│       └── theme.scss
+├── webpack.config.js
 
 ```
 <br /><br />
