@@ -70,9 +70,11 @@
 - [Quick start](#quick-start)
     - [Requirements](#requirements)
     - [Report a bug](#disclamer--%EF%B8%8F)
-- [Documentation](#documentation)
-    - [Main](#main)
-    - [Main](#other)
+- [Workspace](#workspace)
+    - [Toolbox with scripts](#other)
+    - [Separated configurations](#main)
+    - [Minifiers, Optimizers, Transpilers](#main)
+- [Components](#Components)
 - [Scaffolding](#scaffolding)
 - [Contributing](#contributors)
 - [Buy Me A Coffee](#buy-me-a-coffee)
@@ -108,11 +110,22 @@ if you do not have installed Yarn package manager:
 
 <img align="left" src="https://showcase.mheitz.ru/additional/features.png" width="50px" />
 
-## Documentation
+## Workspace
 
-### Main
+### Toolbox with scripts
 
-### Other
+### Separated configurations
+
+### Minifiers, Optimizers, Transpilers
+
+
+<br /><br />
+
+<img align="left" src="https://showcase.mheitz.ru/additional/tree.png" width="50px" />
+
+## Components
+``
+
 
 <br /><br />
 
