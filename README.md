@@ -74,9 +74,9 @@
     - [Toolbox with scripts](#other)
     - [Separated configurations](#main)
     - [Minifiers, Optimizers, Transpilers](#main)
-- [Template](#Components)
-   - [Components](#Components)
-   - [Configuration](#Configuration)
+- [Template](#template)
+   - [Components](#components-)
+   - [Customization](#customization-)
 - [Scaffolding](#scaffolding)
 - [Contributing](#contributors)
 - [Buy Me A Coffee](#buy-me-a-coffee)
@@ -157,7 +157,7 @@ For get all customize variables go to ``./src/config/``
 |----------------------------|:-------------------------------------------------:|
 | ``colors.config.scss``     | Full library with all colors used on this project |
 | ``typography.config.scss`` |                  All for fonts.                   |
-| ``variables.config.scss``  |          Gaps, border radius, Transition          |
+| ``variables.config.scss``  |         Gaps, border radius, transition.          |
 
 <br /><br />
 
