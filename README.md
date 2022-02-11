@@ -127,6 +127,7 @@ if you do not have installed Yarn package manager:
 
 ## Template
 ### Components
+### Configuration
 ``
 
 
