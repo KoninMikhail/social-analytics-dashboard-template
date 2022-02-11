@@ -100,11 +100,6 @@
 if you do not have installed Yarn package manager:
 ``npm install -g yarn``, and repeat guide;
 
-<<<<<<< HEAD
-
-=======
-    
->>>>>>> 1402eea52f1123d1412fcb5fbb6769ff925c3f02
 ## Requirements:
 >- **NodeJS:** 17.3 (My version at building time)
 >- **Yarn:** 1.22
