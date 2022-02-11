@@ -148,9 +148,16 @@ if you do not have installed Yarn package manager:
 | Pie Chart    |        Diagram and legend styles         |    HTML/CSS     |
 | Search       |            Search box styles             |    HTML/CSS     |
 
-### Configuration
-``
+### Customization ‍🎨
+> Set colors, fonts, sizes as you need and when you need.
 
+For get all customize variables go to ``./src/config/``
+
+| Filename                   |                    Description                    |
+|----------------------------|:-------------------------------------------------:|
+| ``colors.config.scss``     | Full library with all colors used on this project |
+| ``typography.config.scss`` |                  All for fonts.                   |
+| ``variables.config.scss``  |          Gaps, border radius, Transition          |
 
 <br /><br />
 
