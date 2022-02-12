@@ -71,7 +71,7 @@
     - [Requirements](#requirements)
     - [Report a bug](#disclamer--%EF%B8%8F)
 - [Workspace](#workspace)
-    - [Toolbox with scripts](#other)
+    - [Toolbox with scripts](#separated-configurations)
     - [Separated configurations](#main)
     - [Semantic Versioning](#semantic-versioning)
 - [Template](#template)
