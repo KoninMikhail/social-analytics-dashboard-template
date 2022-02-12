@@ -49,11 +49,11 @@
 <br />
 
 ## Request features ⚡
->Use [issue](https://github.com/helloheitz/html-social-analytics-dashboard/issues) and follow the rules :)
+>Use [issue](https://github.com/helloheitz/social-analytics-dashboard-template/issues) and follow the rules :)
 
 ## Report bug 🤬
->The data from repository is provided an "As is", without providing any guarantees. The user uses the data and other repository data at his own risk.
-**If you want report a bug** - use [issue](https://github.com/helloheitz/html-social-analytics-dashboard/issues)
+>The data from repository is provided an "As is", without any guarantees. All the data provided is used at your own risk.
+**If you want report a bug** - use [issue](https://github.com/helloheitz/social-analytics-dashboard-template/issues)
 
 <br />
 
@@ -135,7 +135,7 @@ New configs location: ``./configuration/webpack/``
 ---
 
 ### Semantic Versioning
-> Project using commitlint for automatic generate CHANGELOG.MD from your commits.
+> Project using commitlint for automatic generation of CHANGELOG.md from your commits.
 
 Use template: `tag: run message` for commits.
 
@@ -159,7 +159,7 @@ Use template: `tag: run message` for commits.
 ## Template
 ### Components 🔥
 
-> All project separated to components by BEM. You can ``easy copy-paste any module into another project``. Don't forget replace color variables.
+> All project separated to components by BEM. You can ``easy copy-paste any module into another project``. Don't forget to replace color variables.
 
 | Name         |               Description                |      Type       |
 |--------------|:----------------------------------------:|:---------------:|
@@ -180,7 +180,7 @@ Use template: `tag: run message` for commits.
 | Search       |            Search box styles             |    HTML/CSS     |
 
 ### Customization ‍🎨
-> Set colors, fonts, sizes as you need and when you need.
+> Set colors, fonts, sizes as you like when needed.
 
 For get all customize variables go to ``./src/config/``
 
@@ -529,9 +529,9 @@ I am <3 contributions big or small. If you help my project --> 🍰**link to you
   <img alt="@helloheitz/Social Analytics Dashboard Template s brand logo without text" align="right" src="https://showcase.mheitz.ru/additional/logo.png" width="25%" />
 </a>
 
-I am are currently looking for new donators to help and maintain this project! ❤️
+Currently I'm seeking for new sponsors to help maintain this project! ❤️
 
-By donating, you will help the development of this project, and *you will be featured in project's README.md*, so everyone can see your kindness and visit your content ⭐.
+With every donation you make - you're helping with development of this project. *You will be also featured in project's README.md*, so everyone will see your contribution and visit your content⭐.
 
 <a href="https://yoomoney.ru/to/410011749810070">
   <img src="https://showcase.mheitz.ru/additional/sponsor.svg">
@@ -551,5 +551,5 @@ By donating, you will help the development of this project, and *you will be fea
 ## **License and Changelog**
 
 >Copyright (c) 2022, Mikahil Konin & Yehor Haiduk.
->This project under **[MIT](LICENSE)** license. Watch the changes in the **[CHANGELOG.md](CHANGELOG.md)** file.
+>This project under **[MIT](LICENSE)** license. See the changes in the **[CHANGELOG.md](CHANGELOG.md)** file.
 
