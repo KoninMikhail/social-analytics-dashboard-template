@@ -73,7 +73,7 @@
 - [Workspace](#workspace)
     - [Toolbox with scripts](#other)
     - [Separated configurations](#main)
-    - [Minifiers, Optimizers, Transpilers](#main)
+    - [Semantic Versioning](#semantic-versioning)
 - [Template](#template)
    - [Components](#components-)
    - [Customization](#customization-)
@@ -116,14 +116,45 @@ if you do not have installed Yarn package manager:
 
 ### Toolbox with scripts
 
+> `package.json` contains shortcuts for most requirement operations
+
+<img width="100%" src="https://showcase.mheitz.ru/additional/bgs/social-analytics-dashboard-template/shortcuts.jpg" alt="@helloheitz/html-social-analytics-dashboard's logo">
+
+---
+
 ### Separated configurations
+> To simplify working environments and improve readability configuration - `webpack.config.js` will separate into 3 files, according building mode
 
-### Minifiers, Optimizers, Transpilers
+New configs location: ``./configuration/webpack/``
 
+| FileName ('.js')        |             Description             | 
+|-------------------------|:-----------------------------------:|
+| ``environment``         | Configuration for environment paths |
+| ``webpack.dev.config``  | Configuration for developer bundle  |
+| ``webpack.prod.config`` | Configuration for production bundle |
+---
+
+### Semantic Versioning
+> Project using commitlint for automatic generate CHANGELOG.MD from your commits.
+
+Use template: `tag: run message` for commits.
+
+**Allowed tags for commits:**
+- build
+- chore
+- ci
+- docs
+- feat
+- fix
+- perf
+- refactor
+- revert
+- style
+- test
 
 <br /><br />
 
-<img align="left" src="https://showcase.mheitz.ru/additional/tree.png" width="50px" />
+<img align="left" src="https://showcase.mheitz.ru/additional/template.png" width="50px" />
 
 ## Template
 ### Components 🔥
