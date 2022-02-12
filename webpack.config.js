@@ -31,12 +31,6 @@ module.exports = {
     output: {
         filename: 'assets/js/[name].js',
         path: environment.paths.output,
-        library: {
-            name: 'blockslibrary',
-            type: 'umd',
-            export: 'default',
-            umdNamedDefine: true,
-        },
     },
     module: {
         rules: [
