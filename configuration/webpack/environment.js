@@ -4,7 +4,6 @@ module.exports = {
   paths: {
     /* Path to source files directory */
     source: path.resolve(__dirname, '../../src/'),
-    blocks: path.resolve(__dirname, '../../src/library.blocks'),
 
     /* Path to built files directory */
     output: path.resolve(__dirname, '../../dist/'),
