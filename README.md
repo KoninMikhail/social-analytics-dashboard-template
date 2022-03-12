@@ -539,10 +539,10 @@ With every donation you make - you're helping with development of this project. 
 
 #### OR CLICK BUTTON
 
-[![GitHub followers](https://img.shields.io/github/followers/helloheitz.svg?style=social)](https://github.com/helloheitz)
-[![GitHub stars](https://img.shields.io/github/stars/helloheitz/social-analytics-dashboard-template.svg?style=social)](https://github.com/helloheitz/social-analytics-dashboard-template/stargazers)
-[![GitHub watchers](https://img.shields.io/github/watchers/helloheitz/social-analytics-dashboard-template.svg?style=social)](https://github.com/helloheitz/social-analytics-dashboard-template/watchers)
-[![GitHub forks](https://img.shields.io/github/forks/helloheitz/social-analytics-dashboard-template.svg?style=social)](https://github.com/helloheitz/social-analytics-dashboard-template/network/members)
+[![GitHub followers](https://img.shields.io/github/followers/koninmikhail.svg?style=social)](https://github.com/koninmikhail)
+[![GitHub stars](https://img.shields.io/github/stars/koninmikhail/social-analytics-dashboard-template.svg?style=social)](https://github.com/koninmikhail/social-analytics-dashboard-template/stargazers)
+[![GitHub watchers](https://img.shields.io/github/watchers/koninmikhail/social-analytics-dashboard-template.svg?style=social)](https://github.com/koninmikhail/social-analytics-dashboard-template/watchers)
+[![GitHub forks](https://img.shields.io/github/forks/koninmikhail/social-analytics-dashboard-template.svg?style=social)](https://github.com/koninmikhail/social-analytics-dashboard-template/network/members)
 
 <br /><br />
 
