@@ -5,24 +5,24 @@
 
 <div align="center">
   <!-- Change your logo -->
-  <a href="https://github.com/helloheitz/social-analytics-dashboard-template">
-    <img width="100%" src="https://showcase.mheitz.ru/additional/social-analytics-dashboard.jpg" alt="@helloheitz/html-social-analytics-dashboard's logo">
+  <a href="https://github.com/KoninMikhail/social-analytics-dashboard-template">
+    <img width="100%" src="https://storage.mkonin.ru/static/github/projects/dashboard/repo/images/social-analytics-dashboard.jpg" alt="@koninmikhail/social-analytics-dashboard-template logo">
   </a>
   <br /><br />
   <a href="#">
-      <img src="https://img.shields.io/badge/build-stable-blue?style=for-the-badge&color=succeess" alt="@helloheitz/project-template link to create a new repository from the template">
+      <img src="https://img.shields.io/badge/build-stable-blue?style=for-the-badge&color=succeess" alt="@koninmikhail/social-analytics-dashboard-template link to create a new repository from the template">
    </a>
-  <a href="https://github.com/helloheitz/social-analytics-dashboard-template/issues">
-    <img src="https://img.shields.io/github/issues/helloheitz/social-analytics-dashboard-template?color=0088ff&style=for-the-badge&logo=github" alt="helloheitz/html-social-analytics-dashboard's issues"/>
+  <a href="https://github.com/koninmikhail/social-analytics-dashboard-template/issues">
+    <img src="https://img.shields.io/github/issues/koninmikhail/social-analytics-dashboard-template?color=0088ff&style=for-the-badge&logo=github" alt="@koninmikhail/social analytics dashboard's issues"/>
   </a>
-  <a href="https://github.com/helloheitz/social-analytics-dashboard-template/pulls">
-    <img src="https://img.shields.io/github/issues-pr/helloheitz/social-analytics-dashboard-template?color=0088ff&style=for-the-badge&logo=github"  alt="helloheitz/html-social-analytics-dashboard's pull requests"/>
+  <a href="https://github.com/koninmikhail/social-analytics-dashboard-template/pulls">
+    <img src="https://img.shields.io/github/issues-pr/koninmikhail/social-analytics-dashboard-template?color=0088ff&style=for-the-badge&logo=github"  alt="@koninmikhail/social-analytics-dashboard-template/pulls analytics dashboard's pull requests"/>
   </a>
   <a href="https://showcase.mheitz.ru/dashboard">
-       <img src="https://img.shields.io/badge/ -live demo-blue?style=for-the-badge&color=important" alt="@helloheitz/project-template link to live demo.">
+       <img src="https://img.shields.io/badge/ -live demo-blue?style=for-the-badge&color=important" alt="@koninmikhail/social-analytics-dashboard-template link to live demo.">
   </a>
-  <a href="https://github.com/helloheitz/social-analytics-dashboard-template/generate">
-    <img src="https://img.shields.io/badge/use%20this-template-blue?logo=github-sponsors&style=for-the-badge&color=green" alt="@helloheitz/project-template link to create a new repository from the template">
+  <a href="https://github.com/koninmikhail/social-analytics-dashboard-template/generate">
+    <img src="https://img.shields.io/badge/use%20this-template-blue?logo=github-sponsors&style=for-the-badge&color=green" alt="@koninmikhail/social-analytics-dashboard-template link to create a new repository from the template">
   </a>
 
 </div>
@@ -49,11 +49,11 @@
 <br />
 
 ## Request features ⚡
->Use [issue](https://github.com/helloheitz/social-analytics-dashboard-template/issues) and follow the rules :)
+>Use [issue](https://github.com/koninmikhail/social-analytics-dashboard-template/issues) and follow the rules :)
 
 ## Report bug 🤬
 >The data from repository is provided an "As is", without any guarantees. All the data provided is used at your own risk.
-**If you want report a bug** - use [issue](https://github.com/helloheitz/social-analytics-dashboard-template/issues)
+**If you want report a bug** - use [issue](https://github.com/koninmikhail/social-analytics-dashboard-template/issues)
 
 <br />
 
@@ -61,7 +61,7 @@
 
 <br /><br />
 
-<img align="left" src="https://showcase.mheitz.ru/additional/menu.png" width="50px" />
+<img align="left" src="https://storage.mkonin.ru/static/github/common/iconpack/menu.png" width="50px" />
 
 ## TABLE OF CONTENTS
 
@@ -84,7 +84,7 @@
 
 <br /><br />
 
-<img align="left" src="https://showcase.mheitz.ru/additional/qs.png" width="50px" />
+<img align="left" src="https://storage.mkonin.ru/static/github/common/iconpack/qs.png" width="50px" />
 
 ## Quick start
 > If you need only compiled project:
@@ -110,7 +110,7 @@ if you do not have installed Yarn package manager:
 
 <br /><br />
 
-<img align="left" src="https://showcase.mheitz.ru/additional/features.png" width="50px" />
+<img align="left" src="https://storage.mkonin.ru/static/github/common/iconpack/features.png" width="50px" />
 
 ## Workspace
 
@@ -118,7 +118,7 @@ if you do not have installed Yarn package manager:
 
 > `package.json` contains shortcuts for most requirement operations
 
-<img width="100%" src="https://showcase.mheitz.ru/additional/bgs/social-analytics-dashboard-template/shortcuts.jpg" alt="@helloheitz/html-social-analytics-dashboard's logo">
+<img width="100%" src="https://showcase.mheitz.ru/additional/bgs/social-analytics-dashboard-template/shortcuts.jpg" alt="@koninmikhail/html-social-analytics-dashboard's logo">
 
 ---
 
@@ -127,7 +127,7 @@ if you do not have installed Yarn package manager:
 
 New configs location: ``./configuration/webpack/``
 
-| FileName ('.js')        |             Description             | 
+| FileName ('.js')        |             Description             |
 |-------------------------|:-----------------------------------:|
 | ``environment``         | Configuration for environment paths |
 | ``webpack.dev.config``  | Configuration for developer bundle  |
@@ -154,7 +154,7 @@ Use template: `tag: run message` for commits.
 
 <br /><br />
 
-<img align="left" src="https://showcase.mheitz.ru/additional/template.png" width="50px" />
+<img align="left" src="https://storage.mkonin.ru/static/github/common/iconpack/template.png" width="50px" />
 
 ## Template
 ### Components 🔥
@@ -192,7 +192,7 @@ For get all customize variables go to ``./src/config/``
 
 <br /><br />
 
-<img align="left" src="https://showcase.mheitz.ru/additional/tree.png" width="50px" />
+<img align="left" src="https://storage.mkonin.ru/static/github/common/iconpack/tree.png" width="50px" />
 
 ## Scaffolding
 ```
@@ -511,22 +511,22 @@ For get all customize variables go to ``./src/config/``
 ```
 <br /><br />
 
-<img align="left" src="https://showcase.mheitz.ru/additional/contributors.png" width="50px" />
+<img align="left" src="https://storage.mkonin.ru/static/github/common/iconpack/contributors.png" width="50px" />
 
 ## Contributors
 I am <3 contributions big or small. If you help my project --> 🍰**link to your profile will be here**🍰.
 
-<a href="https://github.com/helloheitz/social-analytics-dashboard-template/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=helloheitz/social-analytics-dashboard-template" />
+<a href="https://github.com/koninmikhail/social-analytics-dashboard-template/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=koninmikhail/social-analytics-dashboard-template" />
 </a>
 
 <br /><br />
 
-<img align="left" src="https://showcase.mheitz.ru/additional/coffee.png" width="50px" />
+<img align="left" src="https://storage.mkonin.ru/static/github/common/iconpack/coffee.png" width="50px" />
 
 ## Buy Me A Coffee
-<a href="https://github.com/helloheitz/social-analytics-dashboard-template/generate">
-  <img alt="@helloheitz/Social Analytics Dashboard Template s brand logo without text" align="right" src="https://showcase.mheitz.ru/additional/logo.png" width="25%" />
+<a href="https://github.com/koninmikhail/social-analytics-dashboard-template/generate">
+  <img alt="@koninmikhail/Social Analytics Dashboard Template s brand logo without text" align="right" src="https://storage.mkonin.ru/static/github/common/iconpack/logo.png" width="25%" />
 </a>
 
 Currently I'm seeking for new sponsors to help maintain this project! ❤️
@@ -534,7 +534,7 @@ Currently I'm seeking for new sponsors to help maintain this project! ❤️
 With every donation you make - you're helping with development of this project. *You will be also featured in project's README.md*, so everyone will see your contribution and visit your content⭐.
 
 <a href="https://yoomoney.ru/to/410011749810070">
-  <img src="https://showcase.mheitz.ru/additional/sponsor.svg">
+  <img src="https://storage.mkonin.ru/static/github/common/iconpack/sponsor.svg">
 </a>
 
 #### OR CLICK BUTTON
@@ -546,7 +546,7 @@ With every donation you make - you're helping with development of this project. 
 
 <br /><br />
 
-<img align="left" src="https://showcase.mheitz.ru/additional/law.png" width="50px" />
+<img align="left" src="https://storage.mkonin.ru/static/github/common/iconpack/law.png" width="50px" />
 
 ## **License and Changelog**
 
