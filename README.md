@@ -58,6 +58,7 @@
 <br />
 
 ![dashboard screenshot](https://storage.mkonin.ru/static/github/projects/dashboard/repo/animations/html-social-analytics-dashboard-template-bem.gif)
+![dashboard screenshot mobile](https://storage.mkonin.ru/static/github/projects/dashboard/repo/images/mobile-preview-min.png)
 
 <br /><br />
 
@@ -534,7 +535,7 @@ Currently I'm seeking for new sponsors to help maintain this project! ❤️
 With every donation you make - you're helping with development of this project. *You will be also featured in project's README.md*, so everyone will see your contribution and visit your content⭐.
 
 <a href="https://yoomoney.ru/to/410011749810070">
-  <img src="https://storage.mkonin.ru/static/github/projects/dashboard/repo/sponsor/sponsor.svg">
+  <img src="https://storage.mkonin.ru/static/github/common/sponsors/sponsor.svg">
 </a>
 
 #### OR CLICK BUTTON
