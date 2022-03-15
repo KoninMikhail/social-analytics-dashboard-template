@@ -6,22 +6,22 @@
 <div align="center">
   <!-- Change your logo -->
   <a href="https://github.com/KoninMikhail/social-analytics-dashboard-template">
-    <img width="100%" src="https://storage.mkonin.ru/static/github/projects/dashboard/repo/images/social-analytics-dashboard.jpg" alt="@koninmikhail/social-analytics-dashboard-template logo">
+    <img width="100%" src="https://storage.mkonin.ru/static/github/projects/dashboard/repo/images/social-analytics-dashboard.jpg" alt="@koninmikhail/social-analytics-dashboard-template cover">
   </a>
   <br /><br />
   <a href="#">
-      <img src="https://img.shields.io/badge/build-stable-blue?style=for-the-badge&color=succeess" alt="@koninmikhail/social-analytics-dashboard-template link to create a new repository from the template">
+      <img src="https://img.shields.io/badge/build-stable-blue?style=for-the-badge&color=succeess" alt="@koninmikhail/social-analytics-dashboard-template current release">
    </a>
-  <a href="https://github.com/koninmikhail/social-analytics-dashboard-template/issues">
-    <img src="https://img.shields.io/github/issues/koninmikhail/social-analytics-dashboard-template?color=0088ff&style=for-the-badge&logo=github" alt="@koninmikhail/social analytics dashboard's issues"/>
+  <a href="https://github.com/KoninMikhail/social-analytics-dashboard-template/issues">
+    <img src="https://img.shields.io/github/issues/koninmikhail/social-analytics-dashboard-template?color=0088ff&style=for-the-badge&logo=github" alt="@koninmikhail/social analytics dashboard issues"/>
   </a>
-  <a href="https://github.com/koninmikhail/social-analytics-dashboard-template/pulls">
-    <img src="https://img.shields.io/github/issues-pr/koninmikhail/social-analytics-dashboard-template?color=0088ff&style=for-the-badge&logo=github"  alt="@koninmikhail/social-analytics-dashboard-template/pulls analytics dashboard's pull requests"/>
+  <a href="https://github.com/KoninMikhail/social-analytics-dashboard-template/pulls">
+    <img src="https://img.shields.io/github/issues-pr/koninmikhail/social-analytics-dashboard-template?color=0088ff&style=for-the-badge&logo=github"  alt="@koninmikhail/social-analytics-dashboard-template/pulls analytics dashboard pull requests"/>
   </a>
-  <a href="https://showcase.mheitz.ru/dashboard">
+  <a href="https://storage.mkonin.ru/static/github/projects/dashboard/demo">
        <img src="https://img.shields.io/badge/ -live demo-blue?style=for-the-badge&color=important" alt="@koninmikhail/social-analytics-dashboard-template link to live demo.">
   </a>
-  <a href="https://github.com/koninmikhail/social-analytics-dashboard-template/generate">
+  <a href="https://github.com/KoninMikhail/social-analytics-dashboard-template/generate">
     <img src="https://img.shields.io/badge/use%20this-template-blue?logo=github-sponsors&style=for-the-badge&color=green" alt="@koninmikhail/social-analytics-dashboard-template link to create a new repository from the template">
   </a>
 
@@ -40,9 +40,9 @@
 * Sass
 * Google Fonts
 * Quick start from prepared workspace: 🗲🗲
-    * Husky - Pre-commit tests
-    * Commitlint - Conventional changelog commits linter
-    * Standard-version - Automatic Generate changelog from commits and create releases
+    * [Husky](https://github.com/typicode/husky) - Pre-commit tests
+    * [Commitlint](https://github.com/koninmikhail/social-analytics-dashboard-template/issues) - Conventional changelog commits linter
+    * [Standard-version](https://github.com/conventional-changelog/standard-version) - Automatic Generate changelog from commits and create releases
     * Webpack and addons(Babel, Sass, loaders, minimizers, etc.)
 * This template can be used as a base layer for any of your future projects
 
@@ -53,11 +53,11 @@
 
 ## Report bug 🤬
 >The data from repository is provided an "As is", without any guarantees. All the data provided is used at your own risk.
-**If you want report a bug** - use [issue](https://github.com/koninmikhail/social-analytics-dashboard-template/issues)
+**If you want report a bug** - use [issue](https://github.com/KoninMikhail/social-analytics-dashboard-template/issues)
 
 <br />
 
-![dashboard screenshot](https://showcase.mheitz.ru/additional/gifs/html-social-analytics-dashboard-template-bem.gif)
+![dashboard screenshot](https://storage.mkonin.ru/static/github/projects/dashboard/repo/animations/html-social-analytics-dashboard-template-bem.gif)
 
 <br /><br />
 
@@ -118,7 +118,7 @@ if you do not have installed Yarn package manager:
 
 > `package.json` contains shortcuts for most requirement operations
 
-<img width="100%" src="https://showcase.mheitz.ru/additional/bgs/social-analytics-dashboard-template/shortcuts.jpg" alt="@koninmikhail/html-social-analytics-dashboard's logo">
+<img width="100%" src="https://storage.mkonin.ru/static/github/projects/dashboard/repo/images/shortcuts.jpg" alt="@koninmikhail/social-analytics-dashboard project shortcuts">
 
 ---
 
@@ -526,7 +526,7 @@ I am <3 contributions big or small. If you help my project --> 🍰**link to you
 
 ## Buy Me A Coffee
 <a href="https://github.com/koninmikhail/social-analytics-dashboard-template/generate">
-  <img alt="@koninmikhail/Social Analytics Dashboard Template s brand logo without text" align="right" src="https://storage.mkonin.ru/static/github/common/iconpack/logo.png" width="25%" />
+  <img alt="@koninmikhail/Social Analytics Dashboard Template Author brand logo without text" align="right" src="https://storage.mkonin.ru/static/github/common/logo/logo.png" width="25%" />
 </a>
 
 Currently I'm seeking for new sponsors to help maintain this project! ❤️
@@ -534,7 +534,7 @@ Currently I'm seeking for new sponsors to help maintain this project! ❤️
 With every donation you make - you're helping with development of this project. *You will be also featured in project's README.md*, so everyone will see your contribution and visit your content⭐.
 
 <a href="https://yoomoney.ru/to/410011749810070">
-  <img src="https://storage.mkonin.ru/static/github/common/iconpack/sponsor.svg">
+  <img src="https://storage.mkonin.ru/static/github/common/sponsors/sponsor.svg">
 </a>
 
 #### OR CLICK BUTTON
@@ -552,4 +552,3 @@ With every donation you make - you're helping with development of this project. 
 
 >Copyright (c) 2022, Mikahil Konin & Yehor Haiduk.
 >This project under **[MIT](LICENSE)** license. See the changes in the **[CHANGELOG.md](CHANGELOG.md)** file.
-
