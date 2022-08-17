@@ -62,7 +62,7 @@
 
 <br /><br />
 
-<img align="left" src="https://storage.mkonin.ru/static/github/common/iconpack/menu.png" width="50px" />
+<img align="left" src="https://raw.githubusercontent.com/KoninMikhail/social-analytics-dashboard-template/master/.repo/images/iconpack/menu.png" width="50px" />
 
 ## TABLE OF CONTENTS
 
