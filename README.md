@@ -6,7 +6,7 @@
 <div align="center">
   <!-- Change your logo -->
   <a href="https://github.com/KoninMikhail/social-analytics-dashboard-template">
-    <img width="100%" src="https://storage.mkonin.ru/static/github/projects/dashboard/repo/images/social-analytics-dashboard.jpg" alt="@koninmikhail/social-analytics-dashboard-template cover">
+    <img width="100%" src="https://raw.githubusercontent.com/KoninMikhail/social-analytics-dashboard-template/master/.repo/images/social-analytics-dashboard.jpg" alt="@koninmikhail/social-analytics-dashboard-template cover">
   </a>
   <br /><br />
   <a href="#">
@@ -57,8 +57,8 @@
 
 <br />
 
-![dashboard screenshot](https://storage.mkonin.ru/static/github/projects/dashboard/repo/animations/html-social-analytics-dashboard-template-bem.gif)
-![dashboard screenshot mobile](https://storage.mkonin.ru/static/github/projects/dashboard/repo/images/mobile-preview-min.png)
+![dashboard screenshot](https://raw.githubusercontent.com/KoninMikhail/social-analytics-dashboard-template/master/.repo/images/html-social-analytics-dashboard-template-bem.gif)
+![dashboard screenshot mobile](https://raw.githubusercontent.com/KoninMikhail/social-analytics-dashboard-template/master/.repo/images/mobile-preview-min.png)
 
 <br /><br />
 
@@ -85,7 +85,7 @@
 
 <br /><br />
 
-<img align="left" src="https://storage.mkonin.ru/static/github/common/iconpack/qs.png" width="50px" />
+<img align="left" src="https://raw.githubusercontent.com/KoninMikhail/social-analytics-dashboard-template/master/.repo/iconpack/qs.png" width="50px" />
 
 ## Quick start
 > If you need only compiled project:
@@ -111,7 +111,7 @@ if you do not have installed Yarn package manager:
 
 <br /><br />
 
-<img align="left" src="https://storage.mkonin.ru/static/github/common/iconpack/features.png" width="50px" />
+<img align="left" src="https://raw.githubusercontent.com/KoninMikhail/social-analytics-dashboard-template/master/.repo/iconpack/features.png" width="50px" />
 
 ## Workspace
 
@@ -119,7 +119,7 @@ if you do not have installed Yarn package manager:
 
 > `package.json` contains shortcuts for most requirement operations
 
-<img width="100%" src="https://storage.mkonin.ru/static/github/projects/dashboard/repo/images/shortcuts.jpg" alt="@koninmikhail/social-analytics-dashboard project shortcuts">
+<img width="100%" src="https://raw.githubusercontent.com/KoninMikhail/social-analytics-dashboard-template/master/.repo/images/shortcuts.jpg" alt="@koninmikhail/social-analytics-dashboard project shortcuts">
 
 ---
 
@@ -155,7 +155,7 @@ Use template: `tag: run message` for commits.
 
 <br /><br />
 
-<img align="left" src="https://storage.mkonin.ru/static/github/common/iconpack/template.png" width="50px" />
+<img align="left" src="https://raw.githubusercontent.com/KoninMikhail/social-analytics-dashboard-template/master/.repo/iconpack/template.png" width="50px" />
 
 ## Template
 ### Components 🔥
@@ -193,7 +193,7 @@ For get all customize variables go to ``./src/config/``
 
 <br /><br />
 
-<img align="left" src="https://storage.mkonin.ru/static/github/common/iconpack/tree.png" width="50px" />
+<img align="left" src="https://raw.githubusercontent.com/KoninMikhail/social-analytics-dashboard-template/master/.repo/iconpack/tree.png" width="50px" />
 
 ## Scaffolding
 ```
@@ -512,7 +512,7 @@ For get all customize variables go to ``./src/config/``
 ```
 <br /><br />
 
-<img align="left" src="https://storage.mkonin.ru/static/github/common/iconpack/contributors.png" width="50px" />
+<img align="left" src="https://raw.githubusercontent.com/KoninMikhail/social-analytics-dashboard-template/master/.repo/iconpack/contributors.png" width="50px" />
 
 ## Contributors
 I am <3 contributions big or small. If you help my project --> 🍰**link to your profile will be here**🍰.
@@ -523,11 +523,11 @@ I am <3 contributions big or small. If you help my project --> 🍰**link to you
 
 <br /><br />
 
-<img align="left" src="https://storage.mkonin.ru/static/github/common/iconpack/coffee.png" width="50px" />
+<img align="left" src="https://raw.githubusercontent.com/KoninMikhail/social-analytics-dashboard-template/master/.repo/iconpack/coffee.png" width="50px" />
 
 ## Buy Me A Coffee
-<a href="https://github.com/koninmikhail/social-analytics-dashboard-template/generate">
-  <img alt="@koninmikhail/Social Analytics Dashboard Template Author brand logo without text" align="right" src="https://storage.mkonin.ru/static/github/common/logo/logo.png" width="25%" />
+<a href="https://github.com/KoninMikhail/social-analytics-dashboard-template/generate">
+  <img alt="@koninmikhail/Social Analytics Dashboard Template Author brand logo without text" align="right" src="https://raw.githubusercontent.com/KoninMikhail/social-analytics-dashboard-template/master/.repo/images/logo.png" width="25%" />
 </a>
 
 Currently I'm seeking for new sponsors to help maintain this project! ❤️
@@ -535,7 +535,7 @@ Currently I'm seeking for new sponsors to help maintain this project! ❤️
 With every donation you make - you're helping with development of this project. *You will be also featured in project's README.md*, so everyone will see your contribution and visit your content⭐.
 
 <a href="https://yoomoney.ru/to/410011749810070">
-  <img src="https://storage.mkonin.ru/static/github/projects/dashboard/repo/sponsor/sponsor.svg">
+  <img src="https://raw.githubusercontent.com/KoninMikhail/social-analytics-dashboard-template/master/.repo/images/sponsor.svg">
 </a>
 
 #### OR CLICK BUTTON
@@ -547,7 +547,7 @@ With every donation you make - you're helping with development of this project. 
 
 <br /><br />
 
-<img align="left" src="https://storage.mkonin.ru/static/github/common/iconpack/law.png" width="50px" />
+<img align="left" src="https://raw.githubusercontent.com/KoninMikhail/social-analytics-dashboard-template/master/.repo/iconpack/law.png" width="50px" />
 
 ## **License and Changelog**
 
