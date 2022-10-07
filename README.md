@@ -18,7 +18,7 @@
   <a href="https://github.com/KoninMikhail/social-analytics-dashboard-template/pulls">
     <img src="https://img.shields.io/github/issues-pr/koninmikhail/social-analytics-dashboard-template?color=0088ff&style=for-the-badge&logo=github"  alt="@koninmikhail/social-analytics-dashboard-template/pulls analytics dashboard pull requests"/>
   </a>
-  <a href="https://case.mkonin.ru/social-analytics-dashboard-template/">
+  <a href="https://case.mikekonin.com/social-analytics-dashboard-template/">
        <img src="https://img.shields.io/badge/ -live demo-blue?style=for-the-badge&color=important" alt="@koninmikhail/social-analytics-dashboard-template link to live demo.">
   </a>
   <a href="https://github.com/KoninMikhail/social-analytics-dashboard-template/generate">
