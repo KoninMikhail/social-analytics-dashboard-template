@@ -31,9 +31,10 @@
 
 # **What is this template all about?**
 
-* **Fully CSS-Grid**
-* **Fully responsive**
-* **Fully separate to components**
+* **React, Redux, Typescript**
+* **Fully Responsive Screens support (Mobile first)**
+* **Clean Atomic Design Architecture**
+* **Multilanguage support with auto select locale (by browser lang)**
 * **No require dependencies**
 * **No JQuery**
 * All code based on BEM principles
