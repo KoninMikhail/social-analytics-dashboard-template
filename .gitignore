@@ -6,7 +6,7 @@ node_modules/
 vendor/
 var/
 .tmp/
-
+dist/
 # Yarn 2
 
 .pnp.*
