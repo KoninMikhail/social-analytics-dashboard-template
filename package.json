@@ -1,9 +1,8 @@
 {
   "name": "html-social-analytics-dashboard-template-bem",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Social Analytics Dashboard Template | BEM",
   "main": "index.js",
-  "packageManager": "^yarn@1.22.21",
   "repository": "https://github.com/HelloHeitz/html-social-analytics-dashboard-template-bem",
   "author": "Mikhail Konin",
   "license": "MIT",
